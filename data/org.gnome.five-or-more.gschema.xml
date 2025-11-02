@@ -6,6 +6,11 @@
       <summary>Playing field size</summary>
       <description>Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid.</description>
     </key>
+    <key name="difficulty" type="s">
+      <default>'normal'</default>
+      <summary>Game difficulty</summary>
+      <description>Game difficulty level. Determines how many pieces are added each round. Valid values: 'easy', 'normal', 'hard'.</description>
+    </key>
     <key name="ball-theme" type="s">
       <default>'balls.svg'</default>
       <summary>Ball style</summary>
@@ -47,6 +52,21 @@
     <key name="window-is-maximized" type="b">
       <default>false</default>
       <summary>true if the window is maximized</summary>
+    </key>
+    <key name="enable-composite-lines" type="b">
+      <default>false</default>
+      <summary>Enable combo play mode</summary>
+      <description>Enable combo play mode that allows gap-separated patterns (like 2+3, 3+2) to count as valid lines. When disabled, only continuous lines count (traditional Five-or-More rules).</description>
+    </key>
+    <key name="enable-development-tab" type="b">
+      <default>false</default>
+      <summary>Enable development tab in sidebar</summary>
+      <description>Enable the development tab in the sidebar panel. This tab contains debugging information and is primarily intended for developers.</description>
+    </key>
+    <key name="sidebar-active-tab" type="i">
+      <default>0</default>
+      <summary>Active sidebar tab</summary>
+      <description>The currently active tab in the sidebar panel. 0 = Statistics, 1 = Development (if enabled).</description>
     </key>
   </schema>
 </schemalist>

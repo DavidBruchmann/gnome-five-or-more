@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="uk">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Як грати</title>
+
+  <p>Щоб розпочати нову гру, натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Нова гра</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Використання миші</title>
+
+  <steps>
+    <item>
+      <p>Натисніть на об'єкті, який ви хочете пересунути. Позначений об'єкт почне обертатися.</p>
+    </item>
+    <item>
+      <p>Клацніть на комірці призначення. Вибраний об'єкт буде пересунуто до комірки призначення, якщо існує якийсь вільний шлях до комірки.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Використання клавіатури</title>
+
+  <steps>
+    <item>
+      <p>Натисніть будь-яку з клавіш зі стрілками. На дошці буде показано контур навколо комірки.</p>
+    </item>
+    <item>
+      <p>За допомогою клавіш зі стрілками на клавіш <key>Home</key>, <key>End</key>, <key>PageUp</key> і <key>PageDown</key> перейдіть до об'єкта, який ви хочете пересунути.</p>
+    </item>
+    <item>
+      <p>Щоб позначити об'єкт, натисніть клавішу <key>Enter</key>, <key>Пробіл</key> або <key>Return</key>. Позначений об'єкт почне обертатися.</p>
+    </item>
+    <item>
+      <p>Перейдіть до комірки призначення і знову натисніть клавішу <key>Enter</key>, <key>Пробіл</key> або <key>Return</key>. Вибраний об'єкт буде пересунуто до комірки призначення, якщо існує якийсь вільний шлях до комірки.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Відеодемонстрація</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

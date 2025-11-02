@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2024</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Сообщить о проблеме</title>
+  <p>Приложение <app>Пять или более</app> поддерживается сообществом добровольцев. Вы можете принять в этом участие. Если заметили проблему, то можете отправить <em>отчет об ошибке</em>. Чтобы сообщить об ошибке, перейдите на <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/>.</p>
+  <p>Это система отслеживания ошибок, в которой пользователи и разработчики могут сообщать подробности об ошибках, сбоях и запрашивать улучшения.</p>
+  <p>Для участия вам необходимо войти в систему, которая позволит получить доступ к данным, создавать сообщения об ошибках и оставлять комментарии. Кроме того, вам необходимо войти в систему, используя одну из ваших существующих учётных записей, или зарегистрировать новую учётную запись, чтобы вы могли получать обновления по электронной почте о статусе вашего сообщения об ошибке. Если у вас еще нет учётной записи и вы не хотите использовать какие-либо доступные параметры входа, просто нажмите ссылку <gui>Зарегистрироваться</gui>, чтобы создать её.</p>
+
+  <p>Если у вас уже есть учётная запись, войдите в систему, нажмите <guiseq><gui>Projects</gui><gui>five-or-more</gui><gui>Issues</gui><gui>New issue</gui></guiseq>. Прежде чем сообщать об ошибке, прочтите <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">руководство по написанию ошибок</link> и, пожалуйста, <link href="https://gitlab.gnome .org/GNOME/five-or-more/issues">посмотрите</link> список ошибок, чтобы убедиться, что о ней ещё никто не сообщал.</p>
+  <p>Заполните разделы «Title» и «Description» и нажмите <gui>Submit issue</gui>.</p>
+  <p>Вашему отчёту будет присвоен идентификационный номер, и его статус будет обновляться по мере обработки.</p>
+</page>

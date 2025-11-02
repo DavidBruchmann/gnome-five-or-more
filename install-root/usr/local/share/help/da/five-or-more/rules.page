@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="da">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Regler</title>
+  <list>
+    <item><p>I begyndelsen af spillet er der enten 3 eller 7 objekter på dit bræt, afhængig af <link xref="change-board-size">brætstørrelsen</link>.</p></item>
+
+    <item><p>Hver gang du <link xref="play">flytter et objekt</link>, placeres der yderligere objekter tilfældigt på brættet. Antallet af nye objekter, som placeres i hver tur, afhænger af brættet. En forhåndsvisning af de objekter, som placeres på brættet, vises i øverste venstre hjørne af spilvinduet.</p></item>
+
+    <item><p>Der skal være en ryddet sti fra objektets oprindelige placering til destinationscellen (dvs. du kan ikke hoppe over objekter).</p></item>
+
+    <item><p>En lige vandret, lodret eller diagonal linje på fem eller flere ens objekter vises fra spilbrættet. Når det sker, har du en ekstra flytning uden at der tilføjes yderligere objekter på brættet.</p></item>
+
+    <item><p>Jo flere objekter du rydder, jo længere fortsætter spillet. Jo længere du spiller, jo højere bliver dit <link xref="scores">resultat</link>.</p></item>
+
+    <item><p>Spillet er slut når brættet er fuldt, eftersom ingen af objekterne kan flyttes.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Eksempel på vandret opstilling</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Eksempel på lodret opstilling</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Eksempel på diagonal opstilling</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Stilling i <app>Fem eller flere</app> hvor spillet er slut.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

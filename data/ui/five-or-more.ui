@@ -39,6 +39,37 @@
           </item>
         </section>
       </submenu>
+      <submenu>
+        <!-- Translators: submenu of the hamburger menu (with a mnemonic that appears when pressing Alt); allows to change the difficulty level -->
+        <attribute name="label" translatable="yes">_Difficulty</attribute>
+        <section>
+          <item>
+            <!-- Translators: entry of the hamburger menu (with a mnemonic that appears when pressing Alt); sets difficulty to easy (2 pieces per round) -->
+            <attribute name="label" translatable="yes">_Easy</attribute>
+            <attribute name="action">win.change-difficulty</attribute>
+            <attribute name="target">easy</attribute>
+          </item>
+          <item>
+            <!-- Translators: entry of the hamburger menu (with a mnemonic that appears when pressing Alt); sets difficulty to normal (3 pieces per round) -->
+            <attribute name="label" translatable="yes">_Normal</attribute>
+            <attribute name="action">win.change-difficulty</attribute>
+            <attribute name="target">normal</attribute>
+          </item>
+          <item>
+            <!-- Translators: entry of the hamburger menu (with a mnemonic that appears when pressing Alt); sets difficulty to hard (4 pieces per round) -->
+            <attribute name="label" translatable="yes">_Hard</attribute>
+            <attribute name="action">win.change-difficulty</attribute>
+            <attribute name="target">hard</attribute>
+          </item>
+        </section>
+        <section>
+          <item>
+            <!-- Translators: entry of the Difficulty submenu of the hamburger menu (with a mnemonic that appears when pressing Alt); starts a new game -->
+            <attribute name="label" translatable="yes">_New Game</attribute>
+            <attribute name="action">win.new-game</attribute>
+          </item>
+        </section>
+      </submenu>
     </section>
     <section>
       <item>
@@ -103,6 +134,19 @@
         <attribute name="action">app.about</attribute>
       </item>
     </section>
+    <section>
+      <item>
+        <!-- Translators: entry of the hamburger menu (with a mnemonic that appears when pressing Alt); toggles combo play mode (gap-separated patterns) -->
+        <attribute name="label" translatable="yes">_Combo Play</attribute>
+        <attribute name="action">win.toggle-combo-mode</attribute>
+        <attribute name="role">check</attribute>
+      </item>
+      <item>
+        <!-- Translators: entry of the hamburger menu (with a mnemonic that appears when pressing Alt); toggles the game information panel -->
+        <attribute name="label" translatable="yes">Game _Info</attribute>
+        <attribute name="action">win.toggle-info</attribute>
+      </item>
+    </section>
   </menu>
   <object class="GtkAccelGroup" id="accelgroup"/>
   <template class="GameWindow" parent="GtkApplicationWindow">
@@ -143,6 +187,21 @@
               </packing>
             </child>
           </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="info_panel_button">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="tooltip_text" translatable="yes">Show game information panel</property>
+            <property name="action_name">win.toggle-info</property>
+            <property name="label">Info</property>
+            <style>
+              <class name="suggested-action"/>
+            </style>
+          </object>
+          <packing>
+            <property name="pack_type">end</property>
+          </packing>
         </child>
         <child>
           <object class="GtkMenuButton">

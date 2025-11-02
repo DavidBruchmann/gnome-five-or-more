@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="700" version="1.1">
+  <defs>
+    <style>
+      :root {
+        --piece-color-0: #FFFF00;
+        --piece-color-1: #FF00FF;
+        --piece-color-2: #00FF00;
+        --piece-color-3: #FF0000;
+        --piece-color-4: #0000FF;
+        --piece-color-5: #00FFFF;
+        --piece-color-6: #FF8000;
+        --border-color: #000000;
+        --border-width: 2;
+      }
+      
+      .piece {
+        stroke: var(--border-color);
+        stroke-width: var(--border-width);
+        opacity: 1.0;
+      }
+      
+      .piece-0 { fill: var(--piece-color-0); }
+      .piece-1 { fill: var(--piece-color-1); }
+      .piece-2 { fill: var(--piece-color-2); }
+      .piece-3 { fill: var(--piece-color-3); }
+      .piece-4 { fill: var(--piece-color-4); }
+      .piece-5 { fill: var(--piece-color-5); }
+      .piece-6 { fill: var(--piece-color-6); }
+      
+      /* Animation states */
+      .normal { opacity: 1.0; }
+      .shrinking { opacity: 0.8; transform: scale(0.9); }
+      .growing { opacity: 1.0; transform: scale(1.1); }
+      .pulsing { opacity: 0.9; animation: pulse 1s infinite; }
+      
+      @keyframes pulse {
+        0% { opacity: 0.9; }
+        50% { opacity: 1.0; }
+        100% { opacity: 0.9; }
+      }
+    </style>
+    
+    <!-- Gradient definitions for enhanced visual effects -->
+    <defs>
+      <radialGradient id="ballGradient" cx="0.3" cy="0.3" r="0.7">
+        <stop offset="0%" style="stop-color:white;stop-opacity:0.3"/>
+        <stop offset="100%" style="stop-color:black;stop-opacity:0.1"/>
+      </radialGradient>
+      
+      <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+        <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+      </filter>
+    </defs>
+  </defs>
+  
+  <g id="theme-sprites">
+    <!-- Row 0: Type 0 pieces (Yellow) - Normal, Shrinking, Growing, Pulsing -->
+    <circle class="piece piece-0 normal" cx="50" cy="50" r="37.5" filter="url(#shadow)"/>
+    <circle class="piece piece-0 shrinking" cx="150" cy="50" r="33.75" filter="url(#shadow)"/>
+    <circle class="piece piece-0 growing" cx="250" cy="50" r="41.25" filter="url(#shadow)"/>
+    <circle class="piece piece-0 pulsing" cx="350" cy="50" r="37.5" filter="url(#shadow)"/>
+    
+    <!-- Row 1: Type 1 pieces (Magenta) -->
+    <circle class="piece piece-1 normal" cx="50" cy="150" r="37.5" filter="url(#shadow)"/>
+    <circle class="piece piece-1 shrinking" cx="150" cy="150" r="33.75" filter="url(#shadow)"/>
+    <circle class="piece piece-1 growing" cx="250" cy="150" r="41.25" filter="url(#shadow)"/>
+    <circle class="piece piece-1 pulsing" cx="350" cy="150" r="37.5" filter="url(#shadow)"/>
+    
+    <!-- Row 2: Type 2 pieces (Green) -->
+    <circle class="piece piece-2 normal" cx="50" cy="250" r="37.5" filter="url(#shadow)"/>
+    <circle class="piece piece-2 shrinking" cx="150" cy="250" r="33.75" filter="url(#shadow)"/>
+    <circle class="piece piece-2 growing" cx="250" cy="250" r="41.25" filter="url(#shadow)"/>
+    <circle class="piece piece-2 pulsing" cx="350" cy="250" r="37.5" filter="url(#shadow)"/>
+    
+    <!-- Row 3: Type 3 pieces (Red) -->
+    <circle class="piece piece-3 normal" cx="50" cy="350" r="37.5" filter="url(#shadow)"/>
+    <circle class="piece piece-3 shrinking" cx="150" cy="350" r="33.75" filter="url(#shadow)"/>
+    <circle class="piece piece-3 growing" cx="250" cy="350" r="41.25" filter="url(#shadow)"/>
+    <circle class="piece piece-3 pulsing" cx="350" cy="350" r="37.5" filter="url(#shadow)"/>
+    
+    <!-- Row 4: Type 4 pieces (Blue) -->
+    <circle class="piece piece-4 normal" cx="50" cy="450" r="37.5" filter="url(#shadow)"/>
+    <circle class="piece piece-4 shrinking" cx="150" cy="450" r="33.75" filter="url(#shadow)"/>
+    <circle class="piece piece-4 growing" cx="250" cy="450" r="41.25" filter="url(#shadow)"/>
+    <circle class="piece piece-4 pulsing" cx="350" cy="450" r="37.5" filter="url(#shadow)"/>
+    
+    <!-- Row 5: Type 5 pieces (Cyan) -->
+    <circle class="piece piece-5 normal" cx="50" cy="550" r="37.5" filter="url(#shadow)"/>
+    <circle class="piece piece-5 shrinking" cx="150" cy="550" r="33.75" filter="url(#shadow)"/>
+    <circle class="piece piece-5 growing" cx="250" cy="550" r="41.25" filter="url(#shadow)"/>
+    <circle class="piece piece-5 pulsing" cx="350" cy="550" r="37.5" filter="url(#shadow)"/>
+    
+    <!-- Row 6: Type 6 pieces (Orange) -->
+    <circle class="piece piece-6 normal" cx="50" cy="650" r="37.5" filter="url(#shadow)"/>
+    <circle class="piece piece-6 shrinking" cx="150" cy="650" r="33.75" filter="url(#shadow)"/>
+    <circle class="piece piece-6 growing" cx="250" cy="650" r="41.25" filter="url(#shadow)"/>
+    <circle class="piece piece-6 pulsing" cx="350" cy="650" r="37.5" filter="url(#shadow)"/>
+    
+    <!-- Add gradient overlay for enhanced visual appeal -->
+    <g id="gradient-overlays">
+      <circle cx="50" cy="50" r="37.5" fill="url(#ballGradient)" class="piece-0"/>
+      <circle cx="150" cy="50" r="33.75" fill="url(#ballGradient)" class="piece-0"/>
+      <circle cx="250" cy="50" r="41.25" fill="url(#ballGradient)" class="piece-0"/>
+      <circle cx="350" cy="50" r="37.5" fill="url(#ballGradient)" class="piece-0"/>
+      
+      <circle cx="50" cy="150" r="37.5" fill="url(#ballGradient)" class="piece-1"/>
+      <circle cx="150" cy="150" r="33.75" fill="url(#ballGradient)" class="piece-1"/>
+      <circle cx="250" cy="150" r="41.25" fill="url(#ballGradient)" class="piece-1"/>
+      <circle cx="350" cy="150" r="37.5" fill="url(#ballGradient)" class="piece-1"/>
+      
+      <circle cx="50" cy="250" r="37.5" fill="url(#ballGradient)" class="piece-2"/>
+      <circle cx="150" cy="250" r="33.75" fill="url(#ballGradient)" class="piece-2"/>
+      <circle cx="250" cy="250" r="41.25" fill="url(#ballGradient)" class="piece-2"/>
+      <circle cx="350" cy="250" r="37.5" fill="url(#ballGradient)" class="piece-2"/>
+      
+      <circle cx="50" cy="350" r="37.5" fill="url(#ballGradient)" class="piece-3"/>
+      <circle cx="150" cy="350" r="33.75" fill="url(#ballGradient)" class="piece-3"/>
+      <circle cx="250" cy="350" r="41.25" fill="url(#ballGradient)" class="piece-3"/>
+      <circle cx="350" cy="350" r="37.5" fill="url(#ballGradient)" class="piece-3"/>
+      
+      <circle cx="50" cy="450" r="37.5" fill="url(#ballGradient)" class="piece-4"/>
+      <circle cx="150" cy="450" r="33.75" fill="url(#ballGradient)" class="piece-4"/>
+      <circle cx="250" cy="450" r="41.25" fill="url(#ballGradient)" class="piece-4"/>
+      <circle cx="350" cy="450" r="37.5" fill="url(#ballGradient)" class="piece-4"/>
+      
+      <circle cx="50" cy="550" r="37.5" fill="url(#ballGradient)" class="piece-5"/>
+      <circle cx="150" cy="550" r="33.75" fill="url(#ballGradient)" class="piece-5"/>
+      <circle cx="250" cy="550" r="41.25" fill="url(#ballGradient)" class="piece-5"/>
+      <circle cx="350" cy="550" r="37.5" fill="url(#ballGradient)" class="piece-5"/>
+      
+      <circle cx="50" cy="650" r="37.5" fill="url(#ballGradient)" class="piece-6"/>
+      <circle cx="150" cy="650" r="33.75" fill="url(#ballGradient)" class="piece-6"/>
+      <circle cx="250" cy="650" r="41.25" fill="url(#ballGradient)" class="piece-6"/>
+      <circle cx="350" cy="650" r="37.5" fill="url(#ballGradient)" class="piece-6"/>
+    </g>
+  </g>
+</svg>

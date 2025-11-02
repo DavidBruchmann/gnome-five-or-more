@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2012, 2016, 2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014,2019</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018-2019, 2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jürgen Benvenuti</mal:name>
+      <mal:email>gastornis@posteo.org</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Einen Fehlerbericht erstellen</title>
+  <p>
+    <app>Five or More</app> is maintained by a volunteer community. You are welcome to participate.  If you notice a problem you can file a <em>bug report</em>. To file a bug, go to <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/>.
+  </p>
+  <p>Dies ist ein Fehlererfassungssystem, in dem Benutzer und Entwickler Details über Fehler, Abstürze und Verbesserungswünsche hinterlassen können.</p>
+  <p>Zur Beteiligung müssen Sie sich anmelden, wodurch Sie Zugriff zum Melden von Fehlern und Hinterlassen von Kommentaren erlangen. Sie müssen sich über eines Ihrer vorhandenen Konten anmelden, oder ein neues Konto anlegen, um Statusmeldungen zu Ihrem Fehlerbericht per E-Mail erhalten zu können. Falls Sie noch kein Konto besitzen und keine der vorhandenen Anmeldeoptionen nutzen wollen, klicken Sie auf <gui>Register</gui>, um ein neues Konto anzulegen.</p>
+
+  <p>Sobald die Erstellung des Kontos abgeschlossen ist, klicken Sie auf <guiseq><gui>Projects</gui><gui>five-or-more</gui><gui>Issues</gui><gui>New issue</gui></guiseq>. Bevor Sie einen Fehler melden, lesen Sie bitte die <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">bug writing guidelines</link> und <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">schauen Sie bitte nach</link>, ob der Fehler vielleicht schon gemeldet wurde.</p>
+  <p>Füllen Sie die Abschnitte »Title« und »Description« aus, und klicken Sie auf <gui>Submit issue</gui>.</p>
+  <p>Ihr Bericht bekommt eine Kennung (ID) zugewiesen und der Status wird mit laufender Bearbeitung stets aktualisiert.</p>
+</page>

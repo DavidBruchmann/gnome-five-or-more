@@ -27,6 +27,7 @@ private class FiveOrMoreApp: Gtk.Application
     private const string PROGRAM_NAME = _("Five or More");
 
     internal const string KEY_SIZE = "size";
+    internal const string KEY_DIFFICULTY = "difficulty";
     internal const string KEY_BACKGROUND_COLOR = "background-color";
     internal const string KEY_THEME = "ball-theme";
 
@@ -37,6 +38,15 @@ private class FiveOrMoreApp: Gtk.Application
         { "help",           help_cb         },
         { "about",          about_cb        },
         { "quit",           quit            }
+    };
+
+    private static bool create_config_flag = false;
+    private static bool validate_config_flag = false;
+
+    private const OptionEntry[] option_entries = {
+        { "create-config", 'c', 0, OptionArg.NONE, ref create_config_flag, "Create sample configuration file", null },
+        { "validate-config", 'v', 0, OptionArg.NONE, ref validate_config_flag, "Validate current configuration", null },
+        { null }
     };
 
     private static int main (string[] args)
@@ -51,6 +61,30 @@ private class FiveOrMoreApp: Gtk.Application
         Gtk.Window.set_default_icon_name ("org.gnome.five-or-more");
 
         FiveOrMoreApp app = new FiveOrMoreApp ();
+
+        // Handle command line options
+        try {
+            var option_context = new OptionContext ("- Five or More game");
+            option_context.set_help_enabled (true);
+            option_context.add_main_entries (option_entries, null);
+            option_context.parse (ref args);
+
+            if (create_config_flag) {
+                get_game_constants().create_sample_config();
+                return 0;
+            }
+
+            if (validate_config_flag) {
+                bool valid = get_game_constants().validate_configuration();
+                print("Configuration validation: %s\n", valid ? "PASSED" : "FAILED");
+                return valid ? 0 : 1;
+            }
+
+        } catch (OptionError e) {
+            print ("Error parsing options: %s\n", e.message);
+            return 1;
+        }
+
         return app.run (args);
     }
 

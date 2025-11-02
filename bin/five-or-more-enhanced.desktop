@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Five or More Enhanced
+Comment=Remove colored balls from the board by forming lines - Enhanced version with Combo Mode and Header Bar Indicators
+Exec=/media/david/DataLinux/___DDEV___/DavidBruchmann/linux-games/Gnome/five-or-more/run-five-or-more-with-schema.sh
+Icon=org.gnome.five-or-more
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Game;LogicGame;
+StartupNotify=true
+Path=/media/david/DataLinux/___DDEV___/DavidBruchmann/linux-games/Gnome/five-or-more
+Keywords=game;logic;balls;lines;combo;five;more;

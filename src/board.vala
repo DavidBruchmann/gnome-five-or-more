@@ -332,6 +332,7 @@ private class Cell
         if (list == null)
             list = new Gee.ArrayList<Cell> ();
 
+        // Only add CONTINUOUS matching pieces - stop at first gap or different piece
         for (Cell? cell = this;
             cell != null && cell.piece != null && cell.piece.equal (this.piece);
             cell = cell.get_neighbour (board, dir))
@@ -383,38 +384,100 @@ private class Cell
 
     internal Gee.HashSet<Cell> get_all_directions (Cell[,] board)
     {
-        Gee.ArrayList<Cell>? list;
-        Gee.HashSet<Cell>? inactivate = new Gee.HashSet<Cell> ();
+        var all_cells = new Gee.HashSet<Cell>();
 
-        list = get_horizontal (board);
-        if (list.size >= Game.N_MATCH)
-        {
-            foreach (var l in list)
-                inactivate.add (l);
+        if (this.piece == null) {
+            return all_cells;
         }
 
-        list = get_vertical (board);
-        if (list.size >= Game.N_MATCH)
-        {
-            foreach (var l in list)
-                inactivate.add (l);
+        // Check all four directions with fixed bidirectional logic
+        var horizontal_cells = get_bidirectional_line(board, 0, 1);
+        var vertical_cells = get_bidirectional_line(board, 1, 0);
+        var diagonal1_cells = get_bidirectional_line(board, 1, 1);
+        var diagonal2_cells = get_bidirectional_line(board, 1, -1);
+
+        // Add lines that meet the minimum length requirement
+        if (horizontal_cells.size >= Game.N_MATCH) {
+            all_cells.add_all(horizontal_cells);
         }
 
-        list = get_first_diagonal (board);
-        if (list.size >= Game.N_MATCH)
-        {
-            foreach (var l in list)
-                inactivate.add (l);
+        if (vertical_cells.size >= Game.N_MATCH) {
+            all_cells.add_all(vertical_cells);
         }
 
-        list = get_second_diagonal (board);
-        if (list.size >= Game.N_MATCH)
-        {
-            foreach (var l in list)
-                inactivate.add (l);
+        if (diagonal1_cells.size >= Game.N_MATCH) {
+            all_cells.add_all(diagonal1_cells);
         }
 
-        return inactivate;
+        if (diagonal2_cells.size >= Game.N_MATCH) {
+            all_cells.add_all(diagonal2_cells);
+        }
+
+        return all_cells;
+    }
+
+    /**
+     * Get continuous line in both directions without double-counting the center cell
+     */
+    private Gee.HashSet<Cell> get_bidirectional_line(Cell[,] board, int dr, int dc) {
+        var line_cells = new Gee.HashSet<Cell>();
+
+        // Add the starting cell
+        line_cells.add(this);
+
+        // Scan in positive direction (excluding starting cell)
+        int row = this.row + dr;
+        int col = this.col + dc;
+        while (row >= 0 && row < board.length[0] && col >= 0 && col < board.length[1]) {
+            var cell = board[row, col];
+            if (cell.piece == null || !cell.piece.equal(this.piece)) {
+                break;
+            }
+            line_cells.add(cell);
+            row += dr;
+            col += dc;
+        }
+
+        // Scan in negative direction (excluding starting cell)
+        row = this.row - dr;
+        col = this.col - dc;
+        while (row >= 0 && row < board.length[0] && col >= 0 && col < board.length[1]) {
+            var cell = board[row, col];
+            if (cell.piece == null || !cell.piece.equal(this.piece)) {
+                break;
+            }
+            line_cells.add(cell);
+            row -= dr;
+            col -= dc;
+        }
+
+        return line_cells;
+    }
+
+    /**
+     * Get all lines using unified line detection system
+     * Replaces the problematic dual system with single source of truth
+     */
+    internal CompositeLineResult get_all_lines_composite (Cell[,] board)
+    {
+        var result = new CompositeLineResult();
+
+        // Use unified line detector - single source of truth for all line detection
+        var unified_detector = new UnifiedLineDetector(board);
+        var detection_result = unified_detector.detect_all_lines(this.row, this.col);
+
+        if (detection_result.has_any_lines()) {
+            if (detection_result.is_traditional) {
+                result.traditional_cells = detection_result.cells_to_remove;
+                result.has_traditional_lines = true;
+            } else if (detection_result.is_composite) {
+                result.composite_lines = detection_result.visual_lines;
+                result.composite_cells = detection_result.cells_to_remove;
+                result.has_composite_lines = true;
+            }
+        }
+
+        return result;
     }
 }
 
@@ -428,4 +491,35 @@ private enum Direction
     LOWER_LEFT,
     UPPER_LEFT,
     LOWER_RIGHT,
+}
+
+/**
+ * Result of composite line detection
+ */
+private class CompositeLineResult : Object
+{
+    public bool has_traditional_lines { get; set; default = false; }
+    public bool has_composite_lines { get; set; default = false; }
+    public Gee.HashSet<Cell>? traditional_cells { get; set; }
+    public Gee.HashSet<Cell>? composite_cells { get; set; }
+    public Gee.ArrayList<CompositeLine>? composite_lines { get; set; }
+
+    construct {
+        traditional_cells = new Gee.HashSet<Cell>();
+        composite_cells = new Gee.HashSet<Cell>();
+        composite_lines = new Gee.ArrayList<CompositeLine>();
+    }
+
+    public bool has_any_lines() {
+        return has_traditional_lines || has_composite_lines;
+    }
+
+    public Gee.HashSet<Cell> get_cells_to_remove() {
+        if (has_traditional_lines) {
+            return traditional_cells;
+        } else if (has_composite_lines) {
+            return composite_cells;
+        }
+        return new Gee.HashSet<Cell>();
+    }
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons compartir igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel</mal:name>
+      <mal:email>danielof7@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Sanchis</mal:name>
+      <mal:email>joansanchis@pm.me</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Informar d'un problema</title>
+  <p>
+    <app>Five or More</app> is maintained by a volunteer community. You are welcome to participate.  If you notice a problem you can file a <em>bug report</em>. To file a bug, go to <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/>.
+  </p>
+  <p>Aquest és un sistema de seguiment d'errors en què els usuaris i desenvolupadors poden enviar detalls sobre errors, bloquejos i sol·licitar millores.</p>
+  <p>Per a participar-hi, heu d'iniciar la sessió, i així tindreu la possibilitat d'accedir-hi, d'enviar informes d'errors i de fer comentaris. A més, heu d'iniciar la sessió amb un dels vostres comptes existents o us heu de registrar per a poder rebre actualitzacions per correu electrònic sobre l'estat de l'informe d'error. Si encara no teniu un compte i no voleu fer servir cap de les opcions d'inici de sessió disponibles, feu clic a l'enllaç <gui>Registra'm</gui> per a crear-ne un.</p>
+
+  <p>Un cop tingueu un compte, inicieu la sessió, feu clic a <guiseq><gui>Projects</gui><gui>five-or-more</gui><gui>Issues</gui><gui>New issue</gui></guiseq>. Abans d'informar d'un error, llegiu les directrius d'escriptura d'errors <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines"/>, i si us plau <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">navegueu</link> la llista d'errors per a comprovar si l'error ja existeix.</p>
+  <p>Emplena els camps de Títol i Descripció i fes clic a <gui>Submit issue</gui>.</p>
+  <p>S'assignarà un identificador al teu informe i el seu estat serà actualitzat quan s'hagi atès.</p>
+</page>

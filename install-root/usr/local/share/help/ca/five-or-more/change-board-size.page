@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="ca">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel</mal:name>
+      <mal:email>danielof7@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Sanchis</mal:name>
+      <mal:email>joansanchis@pm.me</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Canviar la mida del tauler</title>
+    <p>Per a canviar la mida del tauler:</p>
+    <list>
+      <item><p>Pressionar el botó del menú al cantó dret superior de la finestra.</p></item>
+      <item><p>Seleccioneu <gui>Petit</gui>, <gui>Mitjà</gui>, o <gui>Gran</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>Tot i que un tauler més gran et dona més espai, també hi ha més objectes amb els quals jugar en cada torn.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>Paràmetres del tauler</title>
+      <p>Els 3 taulers de diferent mida tenen els següents paràmetres:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>Mida</em></p></td>
+        <td><p><em>Amplada</em></p></td>
+        <td><p><em>Alçada</em></p></td>
+        <td><p><em>Nombre de tipus</em></p></td>
+        <td><p><em>Nous objectes per torn</em></p></td>
+        <td><p><em>Nombre de cel·les</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>Petit</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Mig</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Gran</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>Les 3 mides del tauler</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Cinc o més</app> tauler petit</p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Cinc o més</app> tauler mitjà</p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Cinc o més</app> tauler gran</p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

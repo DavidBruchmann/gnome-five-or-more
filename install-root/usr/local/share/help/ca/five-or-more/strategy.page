@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="ca">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel</mal:name>
+      <mal:email>danielof7@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Sanchis</mal:name>
+      <mal:email>joansanchis@pm.me</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Estratègia</title>
+
+  <p>No hi ha cap estratègia universal a <app>Cinc o més</app>, però sí que hi ha certs elements estratègics. A continuació us proposem algunes idees a provar i tenir en compte quan jugueu:</p>
+  <list>
+    <item><p>Intenteu alinear almenys tres objectes iguals amb cada moviment.</p></item>
+    <item><p>El tauler pot omplir-se d'objectes molt ràpidament, per la qual cosa és millor avançar-se als esdeveniments. Pareu atenció a la secció <gui>Següent</gui> i tingueu-la en compte a l'hora de moure els objectes.</p></item>
+    <item><p>Proveu d'alinear més de 5 objectes. Per exemple, si teniu 6 objectes, podeu alinear-ne 2 i 3 amb un espai al mig i després connectar-los col·locant-hi el sisè objecte.</p></item>
+  </list>
+</page>

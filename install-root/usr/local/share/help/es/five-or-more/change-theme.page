@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-theme" xml:lang="es">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011-2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cambiar el aspecto</title>
+  <p>Para cambiar la apariencia de las fichas y del tablero:</p>
+
+  <steps>
+    <item><p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+
+    <list>
+    <item><p>Seleccione <gui>bolas</gui>, <gui>formas</gui> o <gui>formas</gui> en el menú desplegable <gui>Temas</gui> para cambiar las fichas del juego.</p></item>
+    <item><p>Pulse en la caja coloreada junto a <gui>Imagen de fondo</gui> para acceder a la paleta de colores.</p></item>
+    </list>
+    </item>
+    <item><p>Cierre el diálogo <gui>Preferencias</gui>.</p></item>
+  </steps>
+
+</page>

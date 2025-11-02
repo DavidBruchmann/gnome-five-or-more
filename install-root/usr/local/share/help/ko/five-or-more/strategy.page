@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="ko">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2021, 2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>전략</title>
+
+  <p><app>다섯개</app>의 공통 전략은 없지만, 일부 전략 요소는 있습니다. 플레이할 때 기억해두어야 할 몇가지가 있습니다:</p>
+  <list>
+    <item><p>매번 움직일 떄마다 최소한 객체 3개는 모아둡니다.</p></item>
+    <item><p>게임판의 객체가 금방 찰 수 있기에 넘겨 짚어 생각하는게 좋습니다. 객체 움직임에 영향을 주므로 <gui>다음</gui>에 어떤 객체를 모을 지 주의를 기울이십시오.</p></item>
+    <item><p>다섯개 이상 한 줄을 만들려 하십시오. 예를 들면, 6개를 일렬로 모을 경우 2~3개를 일렬로 모아둔 후에 여섯번째 객체를 그 사이에 넣어 연결할 수 있습니다.</p></item>
+  </list>
+</page>

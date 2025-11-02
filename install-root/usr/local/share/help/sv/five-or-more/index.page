@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="sv">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Fem eller mer</title>
+    <title type="text">Fem eller mer</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2007, 2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Erik Sköldås</mal:name>
+      <mal:email>erik.skoldas@tele2.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Logo för Fem eller mer</span></media> Fem eller mer</title>
+
+  <p><app>Fem eller mer</app> är ett till synes enkelt hjärngympaspel. Målet är att placera åtminstone fem objekt av samma <link xref="change-theme#images">färg eller form</link> i en rak linje. Linjen kan vara vågrät, lodrät eller diagonal. När fem eller fler objekt är grupperade i en linje försvinner de. Målet är att få så många objekt som möjligt att försvinna. Spelet är över när hela brädet är fullt.</p>
+
+
+  <section id="play" style="2column">
+    <title>Spelets gång</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Värdefulla tips</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Avancerat</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Engagera dig</title>
+  </section>
+
+</page>

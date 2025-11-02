@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="translate" xml:lang="fr">
+
+  <info>
+   <link type="guide" xref="index#get-involved"/>
+
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+     <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <license>
+       <p>Creative Commons Paternité - Partage dans les Mêmes Conditions 3.0</p>
+     </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jean-Baptiste Holcroft</mal:name>
+      <mal:email>jean-baptiste@holcroft.fr</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020-2022</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Contribution à la traduction</title>
+
+<p>L’interface utilisateur et la documentation des <app>jeux GNOME</app> sont actuellement traduites par une communauté de volontaires dans le monde entier. Votre contribution est la bienvenue.</p>
+<p>There are <link href="https://l10n.gnome.org/module/five-or-more/">many languages</link>
+ for which translations are still needed.</p>
+<p>To start translating you will need to <link href="https://l10n.gnome.org">create
+ an account</link> and join the <link href="https://l10n.gnome.org/teams/">translation
+ team</link> for your language. This will give you the ability to upload new
+ translations.</p>
+<p>You can chat with GNOME translators in
+  <link href="https://matrix.to/#/#i18n:gnome.org">#i18n:gnome.org</link>
+  on <link xref="help:gnome-help/help-matrix">Matrix</link> or
+  <link href="https://web.libera.chat/#gnome-i18n">#gnome-i18n</link> on irc.libera.chat.
+  People on the channel are located worldwide, so you may not get an immediate
+  response as a result of timezone differences.</p>
+<p>Alternatively, you can contact the Internationalization Team using <link href="https://discourse.gnome.org/tag/i18n">GNOME Discourse</link>.</p>
+</page>

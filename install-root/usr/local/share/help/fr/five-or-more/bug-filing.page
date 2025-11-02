@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Paternité - Partage dans les Mêmes Conditions 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jean-Baptiste Holcroft</mal:name>
+      <mal:email>jean-baptiste@holcroft.fr</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020-2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Signaler un problème</title>
+  <p>
+    <app>Five or More</app> is maintained by a volunteer community. You are welcome to participate.  If you notice a problem you can file a <em>bug report</em>. To file a bug, go to <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/>.
+  </p>
+  <p>Il s’agit d’un système de suivi de bogues où les utilisateurs et les développeurs peuvent fournir des détails sur des bogues, des plantages et des propositions d’améliorations.</p>
+  <p>Pour participer, vous devez vous connecter, ce qui vous donnera la possibilité de déposer des bogues et faire des commentaires. Vous devez également vous connecter en utilisant un de vos comptes ou vous inscrire afin de recevoir les mises à jour du statut de votre bogue par courriel. Si vous n’avez pas encore de compte et ne souhaitez pas utiliser l’une des méthodes de connexion, il suffit de cliquer sur le lien <gui>Register</gui> pour en créer un.</p>
+
+  <p>Une fois en possession de votre compte, connectez-vous, cliquez alors successivement sur <guiseq><gui>Projects</gui><gui>five-or-more</gui><gui>Issues</gui><gui>New issue</gui></guiseq>. Avant de signaler une anomalie, lisez le <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">guide de rédaction des rapport de bogues</link> et faites une <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">recherche</link> au sujet de l’anomalie au cas où quelque chose de similaire existerait déjà.</p>
+  <p>Remplissez les sections titre et description et cliquez sur <gui>Submit issue</gui>.</p>
+  <p>Votre signalement recevra un numéro d’identification, et son statut sera mis à jour quand il sera traité.</p>
+</page>

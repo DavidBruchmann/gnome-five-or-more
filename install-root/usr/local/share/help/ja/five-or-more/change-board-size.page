@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="ja">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2016</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>盤の大きさを変更する</title>
+    <p>盤の大きさを変更する方法は次のとおりです。</p>
+    <list>
+      <item><p>Press the menu button in the top-right corner of the window.</p></item>
+      <item><p>Select <gui>Small</gui>, <gui>Medium</gui>, or <gui>Large</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>大きな盤はスペースも大きくなりますが、ターンごとに増える石の数も多くなります。</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>盤のパラメーター</title>
+      <p>3 種類の盤には、それぞれ次のパラメーターが設定されています。</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>大きさ</em></p></td>
+        <td><p><em>幅</em></p></td>
+        <td><p><em>高さ</em></p></td>
+        <td><p><em>石の種類の数</em></p></td>
+        <td><p><em>ターンごとに増える石の数</em></p></td>
+        <td><p><em>マスの数</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>小</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>中</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>大</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>各盤の大きさ</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Five or More</app> の小サイズの盤</p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Five or More</app> の中サイズの盤</p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Five or More</app> の大サイズの盤</p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

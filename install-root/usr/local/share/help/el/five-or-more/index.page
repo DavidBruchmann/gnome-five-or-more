@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="el">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Πέντε ή περισσότερα</title>
+    <title type="text">Πέντε ή περισσότερα</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Παπαναστασίου Νικολέτα</mal:name>
+      <mal:email>papa.nikoleta@ymail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Πέντε ή περισσότερα λογότυπο</span></media> Πέντε ή περισσότερα</title>
+
+  <p>Το <app>Πέντε ή περισσότερα</app> είναι ένα απλό παιχνίδι εξάσκησης του μυαλού. Στόχος του είναι να τοποθετηθούν τουλάχιστον πέντε αντικείμενα με το ίδιο <link xref="change-theme#images">χρώμα ή σχήμα</link> σε μια ευθεία γραμμή. Η γραμμή μπορεί να είναι οριζόντια, κάθετη ή διαγώνια. Όταν πέντε ή περισσότερα αντικείμενα ομαδοποιηθούν σε μία γραμμή, εξαφανίζονται. Ο στόχος είναι να εξαφανιστούν όσο το δυνατόν περισσότερα αντικείμενα. Το παιχνίδι τελειώνει όταν ολόκληρο το ταμπλό είναι πλήρες.</p>
+
+
+  <section id="play" style="2column">
+    <title>Παιχνίδι</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Χρήσιμες συμβουλές</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Για προχωρημένους</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Συμμετοχή</title>
+  </section>
+
+</page>

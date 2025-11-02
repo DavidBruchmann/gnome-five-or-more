@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="de">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2012, 2016, 2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014,2019</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018-2019, 2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jürgen Benvenuti</mal:name>
+      <mal:email>gastornis@posteo.org</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Strategie</title>
+
+  <p>Es gibt keine universelle Strategie für <app>Fünf oder mehr</app>, dennoch gibt es einige strategische Ansätze. Folgendes sollten Sie beim Spiel bedenken:</p>
+  <list>
+    <item><p>Versuchen Sie, mit jedem Zug mindestens drei gleiche Objekte in eine Linie zu bringen.</p></item>
+    <item><p>Das Spielfeld kann binnen kürzester Zeit mit Objekten verstopft werden, denken Sie also vorausschauend. Achten Sie immer auf die Anzeige der <gui>nächsten Objekte</gui> und machen Sie Ihre Entscheidung für einen Zug davon abhängig.</p></item>
+    <item><p>Versuchen Sie, mehr als fünf Objekte zusammenzufügen. Bei sechs Objekten beispielsweise können Sie zwei hintereinander liegende Linien mit zwei beziehungsweise drei Objekten und einem Leerfeld dazwischen bilden. Im nächsten Zug fügen Sie das sechste Objekt ein.</p></item>
+  </list>
+</page>

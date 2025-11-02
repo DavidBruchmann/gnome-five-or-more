@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="ko">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <desc>법적 정보.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2021, 2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>라이선스</title>
+  <p>이 문서는 크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스로 배포됩니다.</p>
+  <p>이용자는 다음 권리가 있습니다:</p>
+  <terms>
+    <item>
+      <title><em>공유</em></title>
+      <p>저작물을 복제, 배포, 전송합니다.</p>
+    </item>
+    <item>
+      <title><em>변경</em></title>
+      <p>저작물에 적용합니다.</p>
+    </item>
+  </terms>
+  <p>다음 조건을 따라야 합니다:</p>
+  <terms>
+    <item>
+      <title><em>저작자 표시</em></title>
+      <p>저작자 또는 저작권자가 지정한 방법으로 표시해야 합니다. 하지만 저작자나 저작권자가 귀하에게 권리를 부여한다거나 귀하의 사용을 허가한다는 내용을 나타내서는 안 됩니다.</p>
+    </item>
+    <item>
+      <title><em>동일 조건</em></title>
+      <p>이 저작물을 개작, 변형, 이 저작물을 기반으로 또 다른 저작물을 만든다면, 동일, 유사 또는 호환 라이선스에 따라 저작물을 배포해야 함.</p>
+    </item>
+  </terms>
+  <p>라이선스 전문을 보려면, <link href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">크리에이티브 커먼즈 웹사이트 </link> 또는 <link href="http://creativecommons.org/licenses/by-sa/3.0/">일반 권리 증서</link>를 참조합니다.</p>
+</page>

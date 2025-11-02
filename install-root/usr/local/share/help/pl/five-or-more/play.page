@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="pl">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru Lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Jak grać</title>
+
+  <p>Aby rozpocząć nową grę, kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Nowa gra</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Używanie myszy</title>
+
+  <steps>
+    <item>
+      <p>Kliknij kulkę do przeniesienia. Wybrana kulka zacznie się obracać.</p>
+    </item>
+    <item>
+      <p>Kliknij komórkę docelową. Wybrana kulka zostanie do niej przeniesiona, jeśli jest między nimi przejście.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Używanie klawiatury</title>
+
+  <steps>
+    <item>
+      <p>Naciśnij jeden z klawiszy strzałek. Wokół komórki na planszy pojawi się obwódka.</p>
+    </item>
+    <item>
+      <p>Za pomocą klawiszy strzałek oraz klawiszy <key>Home</key>, <key>End</key>, <key>Page Up</key> i <key>Page Down</key> przejdź do kulki, która ma zostać przeniesiona.</p>
+    </item>
+    <item>
+      <p>Aby wybrać kulkę, naciśnij klawisz <key>Enter</key> lub <key>Spację</key>. Wybrana kulka zacznie się obracać.</p>
+    </item>
+    <item>
+      <p>Przejdź do komórki docelowej i ponownie naciśnij klawisz <key>Enter</key> lub <key>Spację</key>. Wybrana kulka zostanie do niej przeniesiona, jeśli jest między nimi przejście.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Demonstracja wideo</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="ja">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2016</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ルール</title>
+  <list>
+    <item><p>ゲーム開始時点で、3 つ、または 7 つの石が盤に配置されています。開始時点の石の数は<link xref="change-board-size">盤の大きさ</link>によって決まります。</p></item>
+
+    <item><p><link xref="play">石を動かす</link>たびに、新しい石が盤のランダムな位置に追加されます。追加される石の数も、盤の大きさによって変わります。次に追加される石の種類は、ゲームウィンドウの左上隅で確認できます。</p></item>
+
+    <item><p>石の元の場所と移動先の場所の経路は開けていなければなりません (他の石を飛び越えて移動することはできません)。</p></item>
+
+    <item><p>縦、横、斜めのいずれかの方向に、同じ種類の石を 5 つ以上連続して並べると、該当の石が盤から消えます。石を消したときは、追加の石が配置されず、もう一度石を動かすことができます。</p></item>
+
+    <item><p>石をたくさん消していけば、ゲームが長く続きます。より長くプレイすれば、その分<link xref="scores">スコア</link>も高得点になります。</p></item>
+
+    <item><p>盤が石でいっぱいになって、石を動かせなくなれば、ゲーム終了です。</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">横に並べた例</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">縦に並べた例</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">斜めに並べた例</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes"><app>Five or More</app> ゲームオーバーの状態</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Five or More (Debug Mode)
+Comment=GNOME Five or More puzzle game with debug information and game panel
+Exec=/media/david/DataLinux/___DDEV___/DavidBruchmann/linux-games/Gnome/five-or-more/run-five-or-more-with-schema.sh
+Icon=org.gnome.five-or-more
+Terminal=false
+Categories=Game;LogicGame;Development;
+StartupNotify=true
+Path=/media/david/DataLinux/___DDEV___/DavidBruchmann/linux-games/Gnome/five-or-more
+Keywords=info;game;analysis;details;debug;combo;

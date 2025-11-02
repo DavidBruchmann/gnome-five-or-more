@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-theme" xml:lang="el">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Παπαναστασίου Νικολέτα</mal:name>
+      <mal:email>papa.nikoleta@ymail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Αλλαγή της εμφάνισης</title>
+  <p>Για να αλλάξετε την εμφάνιση των κομματιών και του ταμπλό:</p>
+
+  <steps>
+    <item><p>Press the menu button in the top-right corner of the window and
+     select <gui style="menuitem">Preferences</gui>.</p>
+
+    <list>
+    <item><p>Select <gui>balls</gui>, <gui>shapes</gui>, or <gui>tango</gui> from
+     the <gui>Theme</gui> drop down menu to change the playing pieces.</p></item>
+    <item><p>Κάντε κλικ στο χρωματισμένο πλαίσιο δίπλα στο <gui>Χρώμα παρασκηνίου</gui> για να μπείτε στη παλέτα χρωμάτων.</p></item>
+    </list>
+    </item>
+    <item><p>Close the <gui>Preferences</gui> dialog.</p></item>
+  </steps>
+
+</page>

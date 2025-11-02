@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="cs">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Jak změnit velikost hrací desky</title>
+    <p>Když chcete změnit velikost hrací desky:</p>
+    <list>
+      <item><p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna.</p></item>
+      <item><p>Vyberte z <gui>Malá</gui>, <gui>Střední</gui> nebo <gui>Velká</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>Protože větší hrací deska poskytuje více místa, rozhazuje se na ni v každém tahu také více kamenů.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>Parametry hrací desky</title>
+      <p>Tři různě velké hrací desky mají následující parametry:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>Velikost</em></p></td>
+        <td><p><em>Šířka</em></p></td>
+        <td><p><em>Výška</em></p></td>
+        <td><p><em>Počet typů</em></p></td>
+        <td><p><em>Nových kamenů v tahu</em></p></td>
+        <td><p><em>Počet polí</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>Malá</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Střední</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Velká</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>Tři velikosti hrací desky</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes">Malá hrací deska hry <application>Pět nebo víc</application></p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes">Střední hrací deska hry <application>Pět nebo víc</application></p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes">Velká hrací deska hry <application>Pět nebo víc</application></p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="translate" xml:lang="uk">
+
+  <info>
+   <link type="guide" xref="index#get-involved"/>
+
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+     <credit type="editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <license>
+       <p>Creative Commons Share Alike 3.0</p>
+     </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Допомога у перекладі</title>
+
+<p>Перекладом інтерфейсу та документації до <app>Ігор GNOME</app> переймається спільнота добровольців з усього світу. Ми будемо раді вашій участі у ній.</p>
+<p>Маємо ще <link href="https://l10n.gnome.org/module/five-or-more/">багато мов</link>, переклад якими далекий від досконалості.</p>
+<p>Щоб почати перекладати, вам слід <link href="https://l10n.gnome.org">створити обліковий запис</link> і долучитися до <link href="https://l10n.gnome.org/teams/">команди перекладачів</link> вашою мовою. Після цього ви зможете вивантажувати нові переклади.</p>
+<p>Ви можете спілкуватися із перекладачами GNOME за допомогою <link href="https://matrix.to/#/#i18n:gnome.org">#i18n:gnome.org</link> у <link xref="help:gnome-help/help-matrix">Matrix</link> або <link href="https://web.libera.chat/#gnome-i18n">#gnome-i18n</link> на irc.libera.chat. Учасники каналу живуть у різних кінцях світу, тому, можливо, відповідь надійде не одразу — це результат того, що люди мешкають у різних часових поясах.</p>
+<p>Крім того, ви можете зв'язатися із командою з інтернаціоналізації за допомогою <link href="https://discourse.gnome.org/tag/i18n">GNOME Discourse</link>.</p>
+</page>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="scores" xml:lang="es">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011-2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Puntuación</title>
+  <p>Puede sumar puntos creando líneas de 5 o más objetos. Los puntos que gana dependen del número de objetos que desaparecen.</p>
+
+  <table rules="rowgroups cols" frame="all">
+    <tbody>
+      <tr>
+       <td><p><em>Número de objetos</em></p></td>
+       <td><p><em>Número de puntos</em></p></td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td><p>5</p></td>
+        <td><p>10</p></td>
+      </tr>
+      <tr>
+        <td><p>6</p></td>
+        <td><p>18</p></td>
+      </tr>
+      <tr>
+        <td><p>7</p></td>
+        <td><p>25</p></td>
+      </tr>
+      <tr>
+        <td><p>8</p></td>
+        <td><p>31</p></td>
+      </tr>
+      <tr>
+        <td><p>9</p></td>
+        <td><p>36</p></td>
+      </tr>
+      <tr>
+        <td><p>10</p></td>
+        <td><p>41</p></td>
+      </tr>
+      <tr>
+        <td><p>11</p></td>
+        <td><p>45</p></td>
+       </tr>
+      <tr>
+        <td><p>12</p></td>
+        <td><p>49</p></td>
+      </tr>
+      <tr>
+        <td><p>13</p></td>
+        <td><p>53</p></td>
+      </tr>
+      <tr>
+        <td><p>14</p></td>
+        <td><p>56</p></td>
+      </tr>
+      <tr>
+        <td><p>15</p></td>
+        <td><p>59</p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <note style="tip">
+
+    <p>Puede ver las puntuaciones más altas pulsando en el botón de menú en la esquina superior derecha de la venana y eligiendo <gui style="menuitem">Puntuaciones</gui>.</p>
+    <p>La puntuación de <app>Cinco o más</app> se graba de acuerdo con el tamaño del tablero. Puede seleccionar el <gui>Tamaño del tablero</gui> que le interese usando el menú desplegable.</p>
+  </note>
+</page>

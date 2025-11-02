@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="translate" xml:lang="ko">
+
+  <info>
+   <link type="guide" xref="index#get-involved"/>
+
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+     <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <license>
+       <p>크리에이티브 커먼즈 동일조건변경허락 3.0</p>
+     </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2021, 2023</mal:years>
+    </mal:credit>
+  </info>
+
+<title>번역 돕기</title>
+
+<p>그놈 게임 사용자 인터페이스와 문서는 전세계 기여자 집단이 번역합니다. 여러분의 참여를 환영합니다.</p>
+<p>There are <link href="https://l10n.gnome.org/module/five-or-more/">many languages</link>
+ for which translations are still needed.</p>
+<p>To start translating you will need to <link href="https://l10n.gnome.org">create
+ an account</link> and join the <link href="https://l10n.gnome.org/teams/">translation
+ team</link> for your language. This will give you the ability to upload new
+ translations.</p>
+<p>You can chat with GNOME translators in
+  <link href="https://matrix.to/#/#i18n:gnome.org">#i18n:gnome.org</link>
+  on <link xref="help:gnome-help/help-matrix">Matrix</link> or
+  <link href="https://web.libera.chat/#gnome-i18n">#gnome-i18n</link> on irc.libera.chat.
+  People on the channel are located worldwide, so you may not get an immediate
+  response as a result of timezone differences.</p>
+<p>대신, 국제화 팀에 <link href="https://discourse.gnome.org/tag/i18n">그놈 디스코스</link>로 연락할 수도 있습니다.</p>
+</page>

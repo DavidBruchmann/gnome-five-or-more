@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="pt_BR">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leônidas Araújo</mal:name>
+      <mal:email>lerousvellt@hotmail.com</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Alterando o tamanho do tabuleiro</title>
+    <p>Para alterar o tamanho do tabuleiro:</p>
+    <list>
+      <item><p>Pressione o botão de menu no canto superior direito da janela.</p></item>
+      <item><p>Selecione <gui>Pequeno</gui>, <gui>Médio</gui> ou <gui>Grande</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>Quanto tabuleiros maiores lhe dão mais espaço, há também mais objetos para jogar em cada turno.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>Parâmetros do tabuleiro</title>
+      <p>Os três tamanhos diferentes do tabuleiro têm os seguintes parâmetros:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>Tamanho</em></p></td>
+        <td><p><em>Largura</em></p></td>
+        <td><p><em>Altura</em></p></td>
+        <td><p><em>Número de tipos</em></p></td>
+        <td><p><em>Novos objetos por turno</em></p></td>
+        <td><p><em>Número de células</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>Pequeno</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Médio</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Grande</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>Os três tamanhos de tabuleiro</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes">Tabuleiro pequeno do <app>Cinco ou Mais</app></p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes">Tabuleiro médio do <app>Cinco ou Mais</app></p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes">Tabuleiro grande do <app>Cinco ou Mais</app></p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

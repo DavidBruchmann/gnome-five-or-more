@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="de">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Fünf oder mehr</title>
+    <title type="text">Fünf oder mehr</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2012, 2016, 2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014,2019</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018-2019, 2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jürgen Benvenuti</mal:name>
+      <mal:email>gastornis@posteo.org</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Logo von Fünf oder mehr</span></media> Fünf oder mehr</title>
+
+  <p>Auf den ersten Blick ist <app>Fünf oder mehr</app> ein einfacher Gehirntrainer. Das Ziel besteht darin, mindestens fünf Objekte der <link xref="change-theme#images">gleichen Form oder Farbe</link> in einer geraden Linie anzuordnen. Die Linie kann horizontal, vertikal oder diagonal angeordnet sein. Sobald fünf Objekte in einer geraden Linie angeordnet sind, verschwinden diese vom Spielfeld. Das Ziel ist, so viele Objekte wie möglich verschwinden zu lassen. Das Spiel ist zu Ende, sobald das gesamte Spielbrett belegt ist.</p>
+
+
+  <section id="play" style="2column">
+    <title>Spielverlauf</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Nützliche Tipps</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Fortgeschritten</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Mithelfen</title>
+  </section>
+
+</page>

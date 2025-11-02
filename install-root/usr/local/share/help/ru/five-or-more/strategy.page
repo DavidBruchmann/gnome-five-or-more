@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="ru">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2024</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Стратегия</title>
+
+  <p>Не существует универсальной стратегии для игры <app>Пять или более</app>, но некоторые стратегические элементы существуют. Вот некоторые вещи, которые следует учитывать во время игры:</p>
+  <list>
+    <item><p>С каждым ходом старайтесь составлять как минимум три одинаковых объекта.</p></item>
+    <item><p>Игровое поле может быстро стать переполненным, поэтому лучше всего продумывать ходы заранее. Обращайте внимание на отображение объектов в строке <gui>Следующие</gui>, потому что знание их повлияет на ваши действия.</p></item>
+    <item><p>Попробуйте выстроить в линию более 5 объектов. Например, если у вас 6 объектов, вы можете выстроить 2 и 3 с пробелом между ними, а затем соединить их, поместив шестой объект в этот промежуток.</p></item>
+  </list>
+</page>

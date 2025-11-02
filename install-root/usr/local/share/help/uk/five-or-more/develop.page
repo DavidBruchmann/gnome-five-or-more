@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="develop" xml:lang="uk">
+
+  <info>
+   <link type="guide" xref="index#get-involved"/>
+
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Допомога у розробці</title>
+  <p>Розробкою і супроводом <app>Ігор GNOME</app> переймається спільнота добровольців. Ми будемо раді вашій участі у ній.</p>
+  <p>Якщо ви хочете допомогти у <link href="https://wiki.gnome.org/Apps/Games/Contribute">розробці <app>Ігор GNOME</app></link>, можете зв'язатися із нашими розробниками за допомогою <link href="https://matrix.to/#/#gnome-games:gnome.org">#gnome-games:gnome.org</link> у <link xref="help:gnome-help/help-matrix">Matrix</link>, або <link href="https://web.libera.chat/#gnome-games">#gnome-games</link> на irc.libera.chat, або <link href="https://discourse.gnome.org/tag/games">GNOME Discourse</link>.</p>
+</page>

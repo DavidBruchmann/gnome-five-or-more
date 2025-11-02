@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="id">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Triyan W. Nugroho</mal:name>
+      <mal:email>triyan.wn@gmail.com</mal:email>
+      <mal:years>2020.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2021.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Peraturan</title>
+  <list>
+    <item><p>Pada awal permainan, ada 3 atau 7 objek yang diletakkan pada papan permainan, tergantung pada <link xref="change-board-size">ukuran papan</link>.</p></item>
+
+    <item><p>Setiap kali Anda <link xref="play">memindahkan sebuah objek</link>, objek-objek tambahan akan diletakkan secara acak pada papan permainan. Jumlah dari objek yang diletakkan pada tiap langkah juga tergantung pada papan permainan. Pratinjau objek yang akan diletakkan pada papan akan tampil di sudut kiri atas jendela permainan.</p></item>
+
+    <item><p>Harus ada jalur yang kosong dari posisi awal suatu objek ke sel tujuan. Anda tidak dapat melompat di atas objek yang lain.</p></item>
+
+    <item><p>Garis lurus horisontal, vertikal atau diagonal dari lima atau lebih objek yang sama akan menghilang dari papan permainan. Jika ini terjadi, Anda akan memiliki langkah ekstra tanpa ada objek tambahan yang ditambahkan pada papan permainan.</p></item>
+
+    <item><p>Semakin banyak objek yang dihilangkan, semakin lama permainan akan berlangsung. Semakin lama Anda bermain, semakin tinggi <link xref="score">skor</link> Anda.</p></item>
+
+    <item><p>Permainan selesai ketika papan sudah penuh, sehingga sudah tidak ada lagi objek yang bisa dipindahkan.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Contoh perataan horisontal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Contoh perataan vertikal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Contoh perataan diagonal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Permainan <app>Five or More</app> selesai.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

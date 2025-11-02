@@ -25,12 +25,14 @@ using Gtk;
 
 private class View : DrawingArea
 {
-    private const int MINIMUM_BOARD_SIZE = 256;
+    private static int MINIMUM_BOARD_SIZE { get { return get_game_constants().MINIMUM_BOARD_SIZE; } }
 
     private Game? game = null;
     private ThemeRenderer? theme = null;
     private StyleContext cs;
     private CssProvider provider;
+
+    internal signal void cell_clicked_debug (int row, int col);
 
     private Gdk.Rectangle board_rectangle;
 
@@ -245,6 +247,9 @@ private class View : DrawingArea
 
         keyboard_cursor_x = cell_x;
         keyboard_cursor_y = cell_y;
+
+        // Notify debug panel of cell click (row, col format)
+        cell_clicked_debug (cell_y, cell_x);
 
         /* if selected cell is not empty, set start */
         if (game.board.get_piece (cell_y, cell_x) != null)

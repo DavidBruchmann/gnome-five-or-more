@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="ru">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2024</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Как играть</title>
+
+  <p>Чтобы начать новую игру, нажмите кнопку меню в правом верхнем углу окна и выберите <gui style="menuitem">Новая игра</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Использование мыши</title>
+
+  <steps>
+    <item>
+      <p>Щёлкните на объект, который вы хотите переместить. Выбранный объект начнет вращаться.</p>
+    </item>
+    <item>
+      <p>Щёлкните по ячейке назначения. Выбранный объект переместится туда, если будет свободен путь.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Использование клавиатуры</title>
+
+  <steps>
+    <item>
+      <p>Нажмите любую клавишу со стрелкой. На игровом поле появится контур вокруг ячейки.</p>
+    </item>
+    <item>
+      <p>С помощью клавиш со стрелками и клавиш <key>Home</key>, <key>End</key>, <key>PageUp</key> и <key>PageDown</key> перейдите к объекту, который вы хотите переместить.</p>
+    </item>
+    <item>
+      <p>Чтобы выбрать объект, нажмите <key>Enter</key>, <key>Пробел</key> или <key>Return</key>. Выбранный объект начнет вращаться.</p>
+    </item>
+    <item>
+      <p>Перейдите к целевой ячейке и снова нажмите <key>Enter</key>, <key>Пробел</key> или <key>Return</key>. Выбранный объект переместится в эту ячейку, если будет свободен путь.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Видеодемонстрация</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

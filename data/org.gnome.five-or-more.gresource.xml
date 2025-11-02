@@ -6,4 +6,8 @@
   <gresource prefix="/org/gnome/five-or-more/gtk">
     <file preprocess="xml-stripblanks" alias="help-overlay.ui">ui/help-overlay.ui</file>
   </gresource>
+  <gresource prefix="/org/gnome/five-or-more/themes">
+    <file alias="template.svg">template.svg</file>
+    <file alias="overlay-template.svg">overlay-template.svg</file>
+  </gresource>
 </gresources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="documentation" xml:lang="el">
+  <info>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+   <link type="guide" xref="index#get-involved"/>
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Παπαναστασίου Νικολέτα</mal:name>
+      <mal:email>papa.nikoleta@ymail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Βοήθεια συγγραφής τεκμηρίωσης</title>
+
+  <p>Τα <app>παιχνίδια του GNOME</app> αναπτύσσονται και συντηρούνται από μια εθελοντική κοινότητα. Είσαστε καλοδεχούμενοι να συμμετάσχετε.</p>
+
+<p>To contribute to the Documentation Project, feel free to get in touch with
+us in <link href="https://matrix.to/#/#docs:gnome.org">#docs:gnome.org</link>
+on <link xref="help:gnome-help/help-matrix">Matrix</link> or
+<link href="https://web.libera.chat/#gnome-docs">#gnome-docs</link> on
+irc.libera.chat, or via
+<link href="https://discourse.gnome.org/tag/documentation">GNOME Discourse</link>.</p>
+
+  <p>Το <link href="https://wiki.gnome.org/DocumentationProject/Contributing">wiki</link> μας περιέχει χρήσιμες πληροφορίες.</p>
+
+</page>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="uk">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Майкл Гілл (Michael Hill)</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Зміна розмірів дошки</title>
+    <p>Щоб змінити розмір дошки, виконайте такі дії:</p>
+    <list>
+      <item><p>Натисніть кнопку меню у верхньому правому куті вікна програми.</p></item>
+      <item><p>Виберіть один з варіантів: <gui>Малий</gui>, <gui>Середній</gui> або <gui>Великий</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>Хоча на більшій дошці у вас буде більше місця, там також буде більше об'єктів гри на кожному з ходів.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>Параметри дошки</title>
+      <p>Три різних розміри дошки мають такі параметри:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>Розмір</em></p></td>
+        <td><p><em>Ширина</em></p></td>
+        <td><p><em>Висота</em></p></td>
+        <td><p><em>Кількість типів</em></p></td>
+        <td><p><em>Кількість нових об'єктів за хід</em></p></td>
+        <td><p><em>Кількість комірок</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>Малий</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Середній</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Великий</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>Три розміри дошки</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes">Мала дошка <app>П'яти або більше</app></p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes">Середня дошка <app>П'яти або більше</app></p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes">Велика дошка <app>П'яти або більше</app></p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

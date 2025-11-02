@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-theme" xml:lang="ko">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2021, 2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>모양새 바꾸기</title>
+  <p>게임말과 게임판의 모양새를 바꾸려면:</p>
+
+  <steps>
+    <item><p>창 우측 상단의 메뉴 단추를 누른 후 <gui style="menuitem">기본 설정</gui>을 선택합니다.</p>
+
+    <list>
+    <item><p>게임 말 모양을 바꾸려면 <gui>테마</gui> 드롭다운 메뉴에서 <gui>공</gui>, <gui>도형</gui>, <gui>탱고</gui> 중 하나를 선택합니다.</p></item>
+    <item><p>색상 표를 열어보려면 <gui>배경색</gui> 옆의 색 상자를 누릅니다.</p></item>
+    </list>
+    </item>
+    <item><p><gui>기본 설정</gui> 대화 창을 닫습니다.</p></item>
+  </steps>
+
+</page>

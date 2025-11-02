@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="pl">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru Lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zmiana rozmiaru planszy</title>
+    <p>Aby zmienić rozmiar planszy:</p>
+    <list>
+      <item><p>Kliknij przycisk menu w górnym prawym rogu okna.</p></item>
+      <item><p>Wybierz <gui>Mała</gui>, <gui>Średnia</gui> lub <gui>Duża</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>Chociaż większa plansza daje więcej miejsca, to w każdej rundzie jest więcej kulek w grze.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>Parametry planszy</title>
+      <p>Trzy dostępne rozmiary planszy mają następujące parametry:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>Rozmiar</em></p></td>
+        <td><p><em>Szerokość</em></p></td>
+        <td><p><em>Wysokość</em></p></td>
+        <td><p><em>Liczba typów</em></p></td>
+        <td><p><em>Nowe kulki na rundę</em></p></td>
+        <td><p><em>Liczba komórek</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>Mała</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Średnia</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Duża</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>Trzy rozmiary planszy</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes">Mała plansza <app>Kulek</app></p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes">Średnia plansza <app>Kulek</app></p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes">Duża plansza <app>Kulek</app></p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

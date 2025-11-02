@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="eu">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  </info>
+
+  <title>Nola jokatu</title>
+
+  <p>Jokaldi berri bati ekiteko, sakatu leihoaren goiko eskuineko izkinan dagoen menu-botoia eta hautatu <gui style="menuitem">Joko berria</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Sagua erabiltzea</title>
+
+  <steps>
+    <item>
+      <p>Egin klik lekuz aldatu nahi duzun objektuan. Hautatutako objektua biratzen hasiko da.</p>
+    </item>
+    <item>
+      <p>Egin klik helburuko gelaxkan. Hautatutako objektua helburuko gelaxkara mugituko da, bide garbiren bat badago.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Teklatua erabiltzea</title>
+
+  <steps>
+    <item>
+      <p>Sakatu gezi-tekletako edozein. Gelaxkaren inguru ingerada bat agertuko da taulan.</p>
+    </item>
+    <item>
+      <p>Erabili gezi-teklak eta <key>Home</key>, <key>End</key>, <key>PageUp</key> eta <key>PageDown</key> teklak lekuz aldatu nahi duzun objektua mugitzeko.</p>
+    </item>
+    <item>
+      <p>Objektua hautatzeko, sakatu <key>Enter</key>, <key>Spacebar</key> edo <key>Return</key> tekla. Hautatutako objektua biraka hasiko da.</p>
+    </item>
+    <item>
+      <p>Joan helburuko gelaxkara eta sakatu berriro <key>Enter</key>, <key>Spacebar</key> edo <key>Return</key>. Hautatutako objektua helburuko gelaxkara eramango da, bidea garbi badago.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Bideo-erakustaldia</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="scores" xml:lang="ko">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2021, 2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>득점</title>
+  <p>객체를 5개 이상 모아 한 줄을 만들어 득점합니다. 사라지는 객체 갯수에 따라 점수가 달라집니다.</p>
+
+  <table rules="rowgroups cols" frame="all">
+    <tbody>
+      <tr>
+       <td><p><em>객체 수</em></p></td>
+       <td><p><em>점수</em></p></td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td><p>5</p></td>
+        <td><p>10</p></td>
+      </tr>
+      <tr>
+        <td><p>6</p></td>
+        <td><p>18</p></td>
+      </tr>
+      <tr>
+        <td><p>7</p></td>
+        <td><p>25</p></td>
+      </tr>
+      <tr>
+        <td><p>8</p></td>
+        <td><p>31</p></td>
+      </tr>
+      <tr>
+        <td><p>9</p></td>
+        <td><p>36</p></td>
+      </tr>
+      <tr>
+        <td><p>10</p></td>
+        <td><p>41</p></td>
+      </tr>
+      <tr>
+        <td><p>11</p></td>
+        <td><p>45</p></td>
+       </tr>
+      <tr>
+        <td><p>12</p></td>
+        <td><p>49</p></td>
+      </tr>
+      <tr>
+        <td><p>13</p></td>
+        <td><p>53</p></td>
+      </tr>
+      <tr>
+        <td><p>14</p></td>
+        <td><p>56</p></td>
+      </tr>
+      <tr>
+        <td><p>15</p></td>
+        <td><p>59</p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <note style="tip">
+
+    <p>창 우측 상단의 메뉴 단추를 누른 후 <gui style="menuitem">점수</gui>를 선택하면, 고득점 목록을 볼 수 있습니다.</p>
+    <p><app>다섯개</app> 점수는 게임판 크기에 따라 기록합니다. 원하는 게임판 별 점수를 보려면 <gui>게임판 크기</gui>를 선택하여 볼 수 있습니다.</p>
+  </note>
+</page>

@@ -26,15 +26,32 @@ private class NextPiecesWidget : Gtk.DrawingArea
     private Settings settings;
     private Game? game;
     private ThemeRenderer? theme;
+    private GameConstants constants;
 
     private Gee.ArrayList<Piece> local_pieces_queue;
     private int widget_height = -1;
+    private int current_sprite_size;
+
+    // Color names for tooltips - must match the order in layered-renderer.vala
+    private string[] color_names = {
+        _("Yellow"),    // 0: #FFFF00
+        _("Purple"),    // 1: #FF00FF (Magenta)
+        _("Green"),     // 2: #00FF00
+        _("Red"),       // 3: #FF0000
+        _("Blue"),      // 4: #0000FF
+        _("Cyan"),      // 5: #00FFFF
+        _("Orange")     // 6: #FF8000
+    };
 
     internal NextPiecesWidget (Settings settings, Game game, ThemeRenderer theme)
     {
         this.settings = settings;
         this.game = game;
         this.theme = theme;
+        this.constants = get_game_constants();
+
+        // Use configurable sprite size
+        current_sprite_size = constants.NEXT_PIECES_SIZE;
 
         set_queue_size ();
         settings.changed[FiveOrMoreApp.KEY_SIZE].connect (() => {
@@ -46,11 +63,20 @@ private class NextPiecesWidget : Gtk.DrawingArea
         queue_changed_cb (local_pieces_queue);
 
         game.queue_changed.connect (queue_changed_cb);
+
+        // Enable mouse events for tooltips
+        set_has_tooltip (constants.NEXT_PIECES_SHOW_TOOLTIPS);
+        if (constants.NEXT_PIECES_SHOW_TOOLTIPS) {
+            query_tooltip.connect (on_query_tooltip);
+            motion_notify_event.connect (on_motion_notify);
+            add_events (Gdk.EventMask.POINTER_MOTION_MASK);
+        }
     }
 
     private void set_queue_size ()
     {
-        set_size_request (ThemeRenderer.DEFAULT_SPRITE_SIZE * game.n_next_pieces, ThemeRenderer.DEFAULT_SPRITE_SIZE);
+        current_sprite_size = constants.NEXT_PIECES_SIZE;
+        set_size_request (current_sprite_size * game.n_next_pieces, current_sprite_size);
     }
 
     private void queue_changed_cb (Gee.ArrayList<Piece> next_pieces_queue)
@@ -79,14 +105,58 @@ private class NextPiecesWidget : Gtk.DrawingArea
             theme.render_sprite (cr,
                                  local_pieces_queue[i].id,
                                  0,
-                                 i * ThemeRenderer.DEFAULT_SPRITE_SIZE,
-                                 (widget_height / 2) - (ThemeRenderer.DEFAULT_SPRITE_SIZE / 2),
-                                 ThemeRenderer.DEFAULT_SPRITE_SIZE);
+                                 i * current_sprite_size,
+                                 (widget_height / 2) - (current_sprite_size / 2),
+                                 current_sprite_size);
 
         }
 
         cr.stroke ();
 
         return true;
+    }
+
+    private bool on_motion_notify (Gdk.EventMotion event)
+    {
+        // Trigger tooltip update on mouse movement
+        set_has_tooltip (constants.NEXT_PIECES_SHOW_TOOLTIPS);
+        return false;
+    }
+
+    private bool on_query_tooltip (int x, int y, bool keyboard_mode, Gtk.Tooltip tooltip)
+    {
+        if (!constants.NEXT_PIECES_SHOW_TOOLTIPS || local_pieces_queue.size == 0)
+            return false;
+
+        // Determine which piece the mouse is over
+        int piece_index = x / current_sprite_size;
+
+        if (piece_index >= 0 && piece_index < local_pieces_queue.size) {
+            var piece = local_pieces_queue[piece_index];
+
+            // Get color name, with bounds checking
+            string color_name;
+            if (piece.id >= 0 && piece.id < color_names.length) {
+                color_name = color_names[piece.id];
+            } else {
+                color_name = _("Unknown Color");
+            }
+
+            // Create tooltip text
+            string tooltip_text = @"$(color_name)\n$(_("Next piece")) $(piece_index + 1)";
+            tooltip.set_text (tooltip_text);
+
+            // Set tooltip area to the specific piece
+            Gdk.Rectangle rect = Gdk.Rectangle();
+            rect.x = piece_index * current_sprite_size;
+            rect.y = 0;
+            rect.width = current_sprite_size;
+            rect.height = get_allocated_height();
+            tooltip.set_tip_area (rect);
+
+            return true;
+        }
+
+        return false;
     }
 }

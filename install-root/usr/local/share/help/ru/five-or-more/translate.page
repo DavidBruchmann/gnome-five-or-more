@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="translate" xml:lang="ru">
+
+  <info>
+   <link type="guide" xref="index#get-involved"/>
+
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+     <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <license>
+       <p>Creative Commons Share Alike 3.0</p>
+     </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2024</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Помощь в переводе</title>
+
+<p>Пользовательский интерфейс и документация <app>GNOME Games</app> переводятся международным сообществом добровольцев. Вы также можете принять в этом участие.</p>
+<p>Имеется <link href="https://l10n.gnome.org/module/five-or-more/">множество языков</link> для которых по-прежнему необходимы переводы.</p>
+<p>Чтобы начать перевод, вам необходимо <link href="https://l10n.gnome.org">создать учетную запись</link> и присоединиться к <link href="https://l10n.gnome.org/teams/">команде переводчиков</link> для вашего языка. Это даст вам возможность загружать новые переводы.</p>
+<p>Вы можете пообщаться с переводчиками GNOME в <link href="https://matrix.to/#/#i18n:gnome.org">#i18n:gnome.org</link> на <link xref="help:gnome-help/help-matrix">Matrix</link> или <link href="https://web.libera.chat/#gnome-i18n">#gnome-i18n</link> на irc.libera.chat. Люди, подключённые к каналу, разбросаны по всему миру, поэтому не ждите немедленного ответа, так как есть разница во времени.</p>
+<p>Кроме того, вы можете связаться с командой интернационализации используя <link href="https://discourse.gnome.org/tag/i18n">GNOME Discourse</link>.</p>
+</page>

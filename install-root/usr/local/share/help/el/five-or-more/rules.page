@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="el">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Παπαναστασίου Νικολέτα</mal:name>
+      <mal:email>papa.nikoleta@ymail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Κανόνες</title>
+  <list>
+    <item><p>Στο ξεκίνημα του παιχνιδιού υπάρχουν 3 ή 7 αντικείμενα τοποθετημένα στο ταμπλό σας, αναλόγως του <link xref="change-board-size">μεγέθους του</link>.</p></item>
+
+    <item><p>Κάθε φορά που <link xref="play">μετακινείτε ένα αντικείμενο</link>, προσθέτονται επιπλέον τυχαία αντικείμενα στον πίνακα. Ο αριθμός των αντικειμένων που τοποθετούνται εξαρτάται από τον πίνακα. Μια προεπισκόπηση των αντικειμένων που θα τοποθετηθούν, εμφανίζεται στην πάνω αριστερή γωνία του παραθύρου.</p></item>
+
+    <item><p>Πρέπει να υπάρχει μια καθαρή διαδρομή από την αρχική θέση του αντικειμένου προς το κελί προορισμού (π.χ δεν μπορείτε να πηδήσετε πάνω από τα αντικείμενα).</p></item>
+
+    <item><p>Μια ευθεία οριζόντια, κατακόρυφη ή διαγώνια γραμμή με πέντε ή περισσότερα όμοια αντικείμενα θα εξαφανιστούν από τον πίνακα του παιχνιδιού. Όταν συμβεί αυτό θα έχετε μια πρόσθετη κίνηση χωρίς επιπλέον αντικείμενα να έχουν τοποθετηθεί στο ταμπλό.</p></item>
+
+    <item><p>Όσα περισσότερα αντικείμενα διαγράφετε, τόσο περισσότερο θα διαρκέσει το παιχνίδι. Όσο περισσότερο παίζετε, τόσο υψηλότερη θα είναι η <link xref="scores">βαθμολογία</link> σας.</p></item>
+
+    <item><p>Το παιχνίδι τελειώνει όταν το ταμπλό είναι γεμάτο, αφού δεν μπορεί να μετακινηθεί κανένα αντικείμενο σε αυτό το σημείο.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Παράδειγμα οριζόντιας στοίχισης</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Παράδειγμα κατακόρυφης στοίχισης</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Παράδειγμα διαγώνιας στοίχισης</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Θέση τερματισμού του <app>Πέντε ή περισσότερα</app>.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

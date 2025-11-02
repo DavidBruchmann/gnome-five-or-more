@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="gl">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cambiar o tamaño do taboleiro</title>
+    <p>To change the board size:</p>
+    <list>
+      <item><p>Press the menu button in the top-right corner of the window.</p></item>
+      <item><p>Select <gui>Small</gui>, <gui>Medium</gui>, or <gui>Large</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>While a larger board gives you more space, there are also more objects in
+    play for each turn.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>Parámetros do taboleiro</title>
+      <p>The 3 different board sizes have the following parameters:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>Tamaño</em></p></td>
+        <td><p><em>Anchura</em></p></td>
+        <td><p><em>Altura</em></p></td>
+        <td><p><em>Número de tipos</em></p></td>
+        <td><p><em>Obxectos novos por turno</em></p></td>
+        <td><p><em>Número de celas</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>Pequeno</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Medio</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Grande</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>Os 3 tamaños do tableiro</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes">Taboleiro pequeno de <app>Cinco ou máis</app></p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes">Taboleiro meidano de <app>Cinco ou máis</app></p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes">Taboleiro grande de <app>Cinco ou máis</app></p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

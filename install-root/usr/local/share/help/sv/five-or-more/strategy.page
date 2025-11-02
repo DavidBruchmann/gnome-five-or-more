@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="sv">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2007, 2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Erik Sköldås</mal:name>
+      <mal:email>erik.skoldas@tele2.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Strategi</title>
+
+  <p>Det finns ingen universell strategi för <app>Fem eller mer</app>, men några strategiska element finns. Här är några saker att försöka med och att tänka på när du spelar:</p>
+  <list>
+    <item><p>Försök att samla minst tre likadana objekt vid varje drag.</p></item>
+    <item><p>Brädet kan snabbt bli väldigt fullt med objekt, så det är bäst att tänka framåt. Var uppmärksam på förhandsvisningen av <gui>Nästa</gui> objekt, eftersom vetskapen om dessa kan påverka dina drag.</p></item>
+    <item><p>Försök att rada upp fler än 5 objekt. Till exempel, om du har 6 objekt, kan du rada upp 2 och 3 med ett mellanrum, och sedan koppla ihop dem genom att placera ett sjätte föremål mellan dem.</p></item>
+  </list>
+</page>

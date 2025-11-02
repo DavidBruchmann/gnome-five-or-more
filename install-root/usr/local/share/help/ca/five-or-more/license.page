@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="ca">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <desc>Informació legal.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel</mal:name>
+      <mal:email>danielof7@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Sanchis</mal:name>
+      <mal:email>joansanchis@pm.me</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Llicència</title>
+  <p>Aquesta obra es distribueix sota llicència no adaptada CreativeCommons Reconeixement-Compartir Igual 3.0.</p>
+  <p>Ets lliure de:</p>
+  <terms>
+    <item>
+      <title><em>Compartir</em></title>
+      <p>Per a copiar, distribuir i trametre la feina.</p>
+    </item>
+    <item>
+      <title><em>Remesclar</em></title>
+      <p>Per a adaptar el treball.</p>
+    </item>
+  </terms>
+  <p>Amb les següents condicions:</p>
+  <terms>
+    <item>
+      <title><em>Atribució</em></title>
+      <p>Heu de reconèixer l'autoria del material de la forma especificada per l'autor o llicenciant (però no d'una manera que suggereixi que el llicenciador us dona suport o patrocina l'ús que en feu).</p>
+    </item>
+    <item>
+      <title><em>Compartir Igual</em></title>
+      <p>Si altereu, transformeu o creeu a partir del material, heu de difondre les vostres creacions amb la mateixa llicència, similar o compatible de l'obra original.</p>
+    </item>
+  </terms>
+  <p>Per al text complet de la llicència, veieu el <link href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">Web del CreativeCommons</link>, o llegiu el <link href="https://creativecommons.org/licenses/by-sa/3.0/">Document complet de l'acte</link>.</p>
+</page>

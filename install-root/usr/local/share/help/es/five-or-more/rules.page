@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="es">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011-2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Reglas</title>
+  <list>
+    <item><p>Al empezar el juego hay 3 o 7 objetos colocados en el teclado, dependiendo del <link xref="change-board-size">tamaño del tablero</link>.</p></item>
+
+    <item><p>Cada vez que <link xref="play">mueve un objeto</link>, se añaden objetos adicionales de manera aleatoria al tablero. El número de objetos nuevos que se colocan en cada turno depende del tablero. Aparecerá una vista previa de los objetos que se colocarán en la esquina superior izquierda de la ventana del juego.</p></item>
+
+    <item><p>Debe haber un camino limpio desde la posición original del objeto hasta la casilla de destino (ej. no puede saltar sobre otros objetos).</p></item>
+
+    <item><p>Desaparecerá del tablero una línea recta horizontal, vertical o diagonal de cinco o más objetos similares. Cuando esto ocurre, tendrá un movimiento adicional sin que se añadan objetos al tablero.</p></item>
+
+    <item><p>Cuantos más objetos elimine, más durará el juego. Cuanto más juegue, más alta será su <link xref="scores">puntuación</link>.</p></item>
+
+    <item><p>El juego termina cuando el tablero está lleno, ya que no se puede mover ningún objeto.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Ejemplo de alienación horizontal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Ejemplo de alineación vertical</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Ejemplo de alineación en diagonal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Posición de juego terminado en <application>Cinco o más</application>.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

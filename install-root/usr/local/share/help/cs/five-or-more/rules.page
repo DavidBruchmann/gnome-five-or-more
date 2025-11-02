@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="cs">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pravidla</title>
+  <list>
+    <item><p>Na začátku hry jsou na hrací desce rozmístěny 3 kameny nebo 7 kamenů, v závislosti na <link xref="change-board-size">velikosti hrací desky</link>.</p></item>
+
+    <item><p>Pokaždé, když <link xref="play">některý kámen přesunete</link>, rozmístí se na desku náhodně další kameny. Počet nových kamenů rovněž závisí stejným způsobem na velikosti hrací desky. Náhled kamenů, které budou rozmístěny, můžete vidět v levém horním rohu okna hry.</p></item>
+
+    <item><p>Při přesunu musí mezi počátečním a cílovým polem hracího kamenu vést volná cesta (tj. nemůžete kameny přeskakovat).</p></item>
+
+    <item><p>Přímá řada, ať už vodorovná, svislá či úhlopřičná, pěti nebo více stejných kamenů z hrací desky zmizí. Když k tomu dojde, získáváte navíc tah, aniž by na desku přibyly nové kameny.</p></item>
+
+    <item><p>Čím víc kamenů odstraníte, tím déle bude hra pokračovat. A čím déle budete hrát, tím vyšší bude vaše <link xref="scores">skóre</link>.</p></item>
+
+    <item><p>Hra končí v okamžiku, kdy je hrací deska plná, protože v tu chvíli není možný již žádný tah.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Příklad vodorovného uspořádání</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Příklad svislého uspořádání</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Příklad úhlopříčného uspořádání</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Stav na konci hry <app>Pět nebo víc</app>.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

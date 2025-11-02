@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="sv">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2007, 2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Erik Sköldås</mal:name>
+      <mal:email>erik.skoldas@tele2.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ändra brädstorlek</title>
+    <p>För att ändra brädstorlek:</p>
+    <list>
+      <item><p>Tryck på menyknappen i fönstrets övre högra hörn.</p></item>
+      <item><p>Välj <gui>Liten</gui>, <gui>Mellan</gui>, eller <gui>Stor</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>Medan ett större bräde ger dig mer utrymme, är det även fler objekt i spel per omgång.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>Brädparametrar</title>
+      <p>De tre olika brädstorlekarna har följande parametrar:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>Storlek</em></p></td>
+        <td><p><em>Bredd</em></p></td>
+        <td><p><em>Höjd</em></p></td>
+        <td><p><em>Antal typer</em></p></td>
+        <td><p><em>Nya objekt per omgång</em></p></td>
+        <td><p><em>Antal celler</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>Liten</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Mellan</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Stor</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>De tre brädstorlekarna</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Fem eller mer</app> lilla brädet</p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Fem eller Mer</app> mellanstora brädet</p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Fem eller mer</app> stora brädet</p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

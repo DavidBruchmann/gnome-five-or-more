@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="es">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011-2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cómo jugar</title>
+
+  <p>Para empezar una partida nueva pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Juego nuevo</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Usar el ratón</title>
+
+  <steps>
+    <item>
+      <p>Pulse en el objeto que quiere mover. El objeto seleccionado empezará a girar.</p>
+    </item>
+    <item>
+      <p>Pulse en la casilla de destino. El objeto elegido se moverá a la casilla de destino si ha alguna ruta libre.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Usar el teclado</title>
+
+  <steps>
+    <item>
+      <p>Pulse cualquier tecla de flecha. Aparecerá un borde alrededor de una casilla en el tablero.</p>
+    </item>
+    <item>
+      <p>Use las teclas de flechas y las teclas <key>Inicio</key>, <key>Fin</key>, <key>RePág</key> y <key>AvPág</key> para navegar hasta el objeto que quiere mover.</p>
+    </item>
+    <item>
+      <p>Para seleccionar el objeto, pulse <key>Intro</key>, <key>Enter</key> o <key>Barra espaciadora</key>. El objeto seleccionado empezará a girar.</p>
+    </item>
+    <item>
+      <p>Muévase a la casilla de destino y pulse de nuevo <key>Intro</key>, <key>Enter</key> o <key>Barra espaciadora</key>. El objeto elegido se moverá a la casilla de destino si hay una ruta libre.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Vídeo de demostración</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

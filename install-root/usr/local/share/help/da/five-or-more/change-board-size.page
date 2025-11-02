@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="da">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ændr brætstørrelsen</title>
+    <p>Sådan ændres brætstørrelsen:</p>
+    <list>
+      <item><p>Tryk på menuknappen i øverste højre hjørne af vinduet.</p></item>
+      <item><p>Vælg <gui>Lille</gui>, <gui>Mellem</gui> eller <gui>Stor</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>Selvom et større bræt giver dig mere plads, så er der også flere objekter i spil i hver tur.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>Brætparametre</title>
+      <p>De 3 forskellige brætstørrelser har følgende parametre:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>Størrelse</em></p></td>
+        <td><p><em>Bredde</em></p></td>
+        <td><p><em>Højde</em></p></td>
+        <td><p><em>Antal typer</em></p></td>
+        <td><p><em>Nye objekter pr. tur</em></p></td>
+        <td><p><em>Antal celler</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>Lille</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Mellem</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Stor</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>De 3 brætstørrelser</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes">Lille brætstørrelse i <app>Fem eller flere</app></p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes">Medium brætstørrelse i <app>Fem eller flere</app></p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes">Stor brætstørrelse i <app>Fem eller flere</app></p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

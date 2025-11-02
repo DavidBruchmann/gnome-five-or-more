@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="scores" xml:lang="sv">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2007, 2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Erik Sköldås</mal:name>
+      <mal:email>erik.skoldas@tele2.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Poäng</title>
+  <p>Du får poäng genom att skapa rader med 5 eller flera objekt. Antalet poäng beror på antalet objekt som försvinner.</p>
+
+  <table rules="rowgroups cols" frame="all">
+    <tbody>
+      <tr>
+       <td><p><em>Antal objekt</em></p></td>
+       <td><p><em>Antal poäng</em></p></td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td><p>5</p></td>
+        <td><p>10</p></td>
+      </tr>
+      <tr>
+        <td><p>6</p></td>
+        <td><p>18</p></td>
+      </tr>
+      <tr>
+        <td><p>7</p></td>
+        <td><p>25</p></td>
+      </tr>
+      <tr>
+        <td><p>8</p></td>
+        <td><p>31</p></td>
+      </tr>
+      <tr>
+        <td><p>9</p></td>
+        <td><p>36</p></td>
+      </tr>
+      <tr>
+        <td><p>10</p></td>
+        <td><p>41</p></td>
+      </tr>
+      <tr>
+        <td><p>11</p></td>
+        <td><p>45</p></td>
+       </tr>
+      <tr>
+        <td><p>12</p></td>
+        <td><p>49</p></td>
+      </tr>
+      <tr>
+        <td><p>13</p></td>
+        <td><p>53</p></td>
+      </tr>
+      <tr>
+        <td><p>14</p></td>
+        <td><p>56</p></td>
+      </tr>
+      <tr>
+        <td><p>15</p></td>
+        <td><p>59</p></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <note style="tip">
+
+    <p>Du kan se de högsta poängen genom att trycka på menyknappen i fönstrets övre högra hörn och välja <gui style="menuitem">Poäng</gui>.</p>
+    <p>Poängen för <app>Fem eller mer</app> registreras i enlighet med brädets storlek. Du kan välja <gui>brädstorlek</gui> med hjälp av rullgardinsmenyn.</p>
+  </note>
+</page>

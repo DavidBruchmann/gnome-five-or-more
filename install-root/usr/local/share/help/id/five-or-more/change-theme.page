@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-theme" xml:lang="id">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Triyan W. Nugroho</mal:name>
+      <mal:email>triyan.wn@gmail.com</mal:email>
+      <mal:years>2020.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2021.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mengubah tampilan dan nuansa</title>
+  <p>Untuk mengubah tampilan kepingan dan papan permainan:</p>
+
+  <steps>
+    <item><p>Tekan tombol menu di pojok kanan atas jendela dan pilih <gui style="menuitem">Preferensi</gui>.</p>
+
+    <list>
+    <item><p>Pilih <gui>bola</gui>, <gui>bentuk</gui>, atau <gui>tango</gui> dari menu <gui>Tema</gui> untuk mengubah kepingan permainan.</p></item>
+    <item><p>Klik pada kotak berwarna di sebelah <gui>Warna latar belakang</gui> untuk mengakses palet warna.</p></item>
+    </list>
+    </item>
+    <item><p>Tutup dialog <gui>Preferensi</gui>.</p></item>
+  </steps>
+
+</page>

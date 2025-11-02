@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="shortcuts" xml:lang="pl">
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-04" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Skróty klawiszowe</title>
+     <table frame="all" rules="cols" shade="rows">
+       <tr>
+         <td><p>Nowa gra</p></td>
+         <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
+       </tr>
+       <tr>
+          <td><p>Pomoc</p></td>
+          <td><p><key>F1</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Zakończenie gry</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </table>
+</page>

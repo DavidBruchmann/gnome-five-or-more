@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="id">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Triyan W. Nugroho</mal:name>
+      <mal:email>triyan.wn@gmail.com</mal:email>
+      <mal:years>2020.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2021.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cara Bermain</title>
+
+  <p>Untuk memulai permainan baru, tekan tombol menu pada sudut kanan atas jendela, dan pilih <gui style="menuitem">Permainan Baru</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Menggunakan tetikus</title>
+
+  <steps>
+    <item>
+      <p>Klik pada objek yang ingin Anda pindahkan. Objek yang dipilih akan mulai berputar.</p>
+    </item>
+    <item>
+      <p>Klik pada sel tujuan. Objek yang dipilih akan berpindah ke sel tujuan, jika ada jalur yang kosong.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Menggunakan papan tik</title>
+
+  <steps>
+    <item>
+      <p>Tekan salah satu tombol panah. Akan muncul tanda garis luar pada satu sel di papan permainan.</p>
+    </item>
+    <item>
+      <p>Menggunakan tombol panah dan <key>Home</key>, <key>End</key>, <key>PageUp</key> dan <key>PageDown</key>, pilih objek yang ingin Anda pindahkan.</p>
+    </item>
+    <item>
+      <p>Untuk memilih objek, tekan <key>Enter</key>, <key>Spasi</key> atau <key>Return</key>. Objek terpilih akan mulai berputar.</p>
+    </item>
+    <item>
+      <p>Pindahkan ke sel tujuan, dan kembali tekan <key>Enter</key>, <key>Spasi</key> atau <key>Return</key>. Objek yang dipilih akan berpindah ke sel tujuan, jika terdapat jalur yang kosong.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Peragaan video</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="ko">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2021, 2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>규칙</title>
+  <list>
+    <item><p>게임을 시작할 때 <link xref="change-board-size">게임판 크기</link>에 따라 게임판에 객체가 3~7개 정도 올라갑니다.</p></item>
+
+    <item><p><link xref="play">객체를 움직일 때</link>마다 추가 객체가 게임판에 임의대로 나타납니다. 게임판에 따라 여러 객체가 올라갑니다. 게임창 좌측 상단 구석에서 게임판에 올라갈 객체를 미리 볼 수 있습니다.</p></item>
+
+    <item><p>객체의 초기 위치에서 대상 위치로 욺직이려면 움직이는 길이 뚫려있어야 합니다(예: 다른 객체를 건너뛸 수 없음).</p></item>
+
+    <item><p>비슷한 객체를 게임판에 수평, 수직, 대각선 방향으로 일렬로 두면 객체가 없어집니다. 이렇게 객체를 없애고 나면 게임판에 다른 객체가 추가로 나타나지 않고 한 번 더 객체를 움직일 수 있습니다.</p></item>
+
+    <item><p>더 많은 객체를 없앨 수록 게임을 더 오래할 수 있습니다. 게임을 오래할 수록 <link xref="scores">점수</link>가 더 높게 올라갑니다.</p></item>
+
+    <item><p>게임판이 객체로 가득차면 어떤 객체도 움직일 수 없어 끝납니다.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">수평 정렬 예제</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">수직 정렬 예제</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">대각선 정렬 예제</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes"><app>다섯개</app> 게임 끝 상태.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

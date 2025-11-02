@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="ru">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2024</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Правила</title>
+  <list>
+    <item><p>В начале игры на игровом поле размещается либо 3, либо 7 объектов, в зависимости от <link xref="change-board-size">размера игрового поля</link>.</p></item>
+
+    <item><p>Каждый раз, когда вы <link xref="play">перемещаете объект</link>, новые объекты случайным образом размещаются на игровом поле. Количество новых объектов, размещаемых за один ход, также зависит от размера игрового поля. Просмотр объектов для размещения на игровом поле на следующий ход возможен в верхнем левом углу игрового окна.</p></item>
+
+    <item><p>Путь от исходного объекта до ячейки назначения должен быть свободен (т.е. через объекты нельзя перепрыгивать).</p></item>
+
+    <item><p>Прямая горизонтальная, вертикальная или диагональная линия из пяти или более одинаковых объектов исчезнет с игрового поля. Когда это произойдет, у вас будет дополнительный ход без добавления новых объектов на игровое поле.</p></item>
+
+    <item><p>Чем больше объектов вы удалите, тем дольше будет продолжаться игра. Чем дольше вы играете, тем лучше ваш <link xref="scores">результат</link>.</p></item>
+
+    <item><p>Игра заканчивается, когда доска полностью заполнена, так как в этом случае нельзя переместить ни одного объекта.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Пример выстраивания по горизонтали</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Пример выстраивания по вертикали</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Пример выстраивания по диагонали</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes"><app>Пять или более</app> - игра окончена.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

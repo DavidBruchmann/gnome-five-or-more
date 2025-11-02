@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hiba jelentése</title>
+  <p>Az <app>Öt vagy többet</app> egy önkéntes közösség tartja karban. Közreműködését szívesen fogadjuk! Ha hibát tapasztal, <em>bejelentheti</em> a <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/> oldalon.</p>
+  <p>Ez egy hibakövető rendszer, ahová a felhasználók és fejlesztők beküldhetik a hibákkal, összeomlásokkal kapcsolatos adatokat, és továbbfejlesztéseket kérhetnek.</p>
+  <p>A részvételhez létre be kell jelentkeznie, amely lehetővé teszi a hozzáférést, a hibajelentések beküldését és a hibákhoz való hozzászólást. Azért is be kell jelentkeznie a meglévő fiókjai valamelyikének használatával vagy regisztrálnia kell egy új fiókot, hogy frissítéseket kapjon e-mailben a hiba állapotáról. Ha még nincs fiókja, és nem szeretné az elérhető bejelentkezési lehetőségeket egyikét sem használni, akkor kattintson a <gui>Register</gui> hivatkozásra egy fiók létrehozásához.</p>
+
+  <p>Ha létrehozta fiókját, jelentkezzen be, kattintson a <guiseq><gui>Projects</gui><gui>five-or-more</gui><gui>Issues</gui><gui>New issue</gui></guiseq> hivatkozásokra. Hiba jelentése előtt olvassa el a <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">hibajelentés-írási irányelveket</link>, és <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">ellenőrizze</link>, hogy nincs-e már a hiba bejelentve.</p>
+  <p>Töltse ki a Title és a Description szakaszokat, majd kattintson a <gui>Submit issue</gui> gombra.</p>
+  <p>A hibajelentés kapni fog egy azonosítószámot, az állapota pedig a feldolgozása során frissülni fog.</p>
+</page>

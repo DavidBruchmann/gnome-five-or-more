@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="ja">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Five or More</title>
+    <title type="text">Five or More</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2016</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Five or More ロゴ</span></media> Five or More</title>
+
+  <p><app>Five or More</app> は、一見単純だが実は複雑な脳トレゲームです。ゲームの目的は、<link xref="change-theme#images">色や形</link>に基づいて同じ石を 5 個以上連続して一列に並べることです。並べる方向は、横、縦、斜めのどれでもかまいません。5 つ以上並べると、並べた石が消えます。できるだけ多くの石を消してください。盤が石でいっぱいになればゲームオーバーです。</p>
+
+
+  <section id="play" style="2column">
+    <title>ゲームプレイ</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>役立つ情報</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>高度</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>参加する</title>
+  </section>
+
+</page>

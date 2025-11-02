@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="fr">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Cinq ou plus</title>
+    <title type="text">Cinq ou plus</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Paternité - Partage dans les Mêmes Conditions 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jean-Baptiste Holcroft</mal:name>
+      <mal:email>jean-baptiste@holcroft.fr</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020-2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Logo de Cinq ou plus</span></media> Cinq ou plus</title>
+
+  <p><app>Cinq ou plus</app> est un concept d’entraînement cérébral qui donne l’impression d’être simple. Le but est de placer au moins cinq objets de la même <link xref="change-theme#images">couleur ou forme</link> de façon à former une ligne droite. La ligne peut être horizontale, verticale ou en diagonale. Une fois que cinq objets ou plus sont alignés, ils disparaissent. Le but est de faire disparaître le plus d’objets possible. Le jeu prend fin lorsque le tableau est plein.</p>
+
+
+  <section id="play" style="2column">
+    <title>Partie</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Astuces utiles</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Avancée</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Comment s’impliquer</title>
+  </section>
+
+</page>

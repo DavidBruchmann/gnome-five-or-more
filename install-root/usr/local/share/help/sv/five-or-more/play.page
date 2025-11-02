@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="sv">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2007, 2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Erik Sköldås</mal:name>
+      <mal:email>erik.skoldas@tele2.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hur man spelar</title>
+
+  <p>För att starta ett nytt spel trycker du på menyknappen i fönstrets övre högra hörn och väljer <gui style="menuitem">Nytt spel</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Att använda musen</title>
+
+  <steps>
+    <item>
+      <p>Klicka på objektet du vill flytta. Det markerade objektet kommer att börja snurra.</p>
+    </item>
+    <item>
+      <p>Klicka på destinationscellen. Det valda objektet kommer att flyttas till destinationscellen om det finns en öppen väg.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Använda tangentbordet</title>
+
+  <steps>
+    <item>
+      <p>Tryck på någon av piltangenterna. En kontur runt en cell kommer att visas på brädet.</p>
+    </item>
+    <item>
+      <p>Använd piltangenterna och tangenterna <key>Home</key>, <key>End</key>, <key>PageUp</key> och <key>PageDown</key> för att navigera till objektet som du vill flytta.</p>
+    </item>
+    <item>
+      <p>För att välja objektet, tryck på <key>Retur</key> eller <key>mellanslagstangenten</key>. Det markerade objektet kommer att börja snurra.</p>
+    </item>
+    <item>
+      <p>Flytta till destinationscellen, och tryck återigen på <key>Retur</key> eller <key>mellanslagstangenten</key>. Det valda objektet kommer att flyttas till destinationscellen om det finns en öppen väg.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Videodemonstration</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

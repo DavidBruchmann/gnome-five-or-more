@@ -23,11 +23,17 @@
 
 private class Game : Object
 {
-    internal const int N_TYPES = 7;
-    internal const int N_ANIMATIONS = 4;
-    internal const int N_MATCH = 5;
+    // Use configurable constants
+    internal static int N_TYPES { get { return get_game_constants().N_TYPES; } }
+    internal static int N_ANIMATIONS { get { return get_game_constants().N_ANIMATIONS; } }
+    internal static int N_MATCH { get { return get_game_constants().N_MATCH; } }
 
     public int size { private get; internal construct set; }
+    public int difficulty { private get; internal construct set; } // 0=easy, 1=normal, 2=hard
+
+    internal int get_board_size() {
+        return size;
+    }
     private NextPiecesGenerator next_pieces_generator;
 
     internal Board? board = null;
@@ -57,6 +63,7 @@ private class Game : Object
     internal int score { get; private set; }
 
     internal signal void current_path_cell_pos_changed ();
+    internal signal void line_detection_performed (int row, int col, bool had_lines, int cells_removed);
     private int _current_path_cell_pos = -1;
     internal int current_path_cell_pos
     {
@@ -69,6 +76,7 @@ private class Game : Object
     }
 
     internal signal void queue_changed (Gee.ArrayList<Piece> next_pieces_queue);
+    internal signal void composite_line_cleared (Gee.ArrayList<CompositeLine> lines, int score, string description);
 
     private Gee.ArrayList<Piece> _next_pieces_queue;
     internal Gee.ArrayList<Piece> next_pieces_queue
@@ -81,12 +89,13 @@ private class Game : Object
         }
     }
 
-    internal const GameDifficulty[] game_difficulty = {
-        { -1, -1, -1, -1 },
-        {  7,  7,  5,  3 },
-        {  9,  9,  7,  3 },
-        { 20, 15,  7,  7 }
-    };
+    internal static GameDifficulty[] game_difficulty {
+        get { return get_game_constants().game_difficulty; }
+    }
+
+    internal static DifficultyLevel[] difficulty_levels {
+        get { return get_game_constants().difficulty_levels; }
+    }
 
     internal const KeyValue scorecats[] = {
         /* Translators: board size, as displayed in the Scores dialog */
@@ -106,9 +115,9 @@ private class Game : Object
 
     internal StatusMessage status_message { get; set; }
 
-    internal Game (int size)
+    internal Game (int size, int difficulty = 1)
     {
-        Object (size: size);
+        Object (size: size, difficulty: difficulty);
         init_game ();
     }
 
@@ -117,7 +126,10 @@ private class Game : Object
         is_game_over = false;
         var n_rows = game_difficulty[size].n_rows;
         var n_cols = game_difficulty[size].n_cols;
-        this.n_next_pieces = game_difficulty[size].n_next_pieces;
+
+        // Use difficulty level to determine pieces per round
+        this.n_next_pieces = difficulty_levels[difficulty].pieces_per_round[size];
+        // this.n_next_pieces = game_difficulty[size].n_next_pieces;
 
         this.n_cells = n_rows * n_cols;
         this.n_filled_cells = 0;
@@ -127,7 +139,7 @@ private class Game : Object
 
         this.status_message = DESCRIPTION;
 
-        next_pieces_generator = new NextPiecesGenerator (game_difficulty[size].n_next_pieces,
+        this.next_pieces_generator = new NextPiecesGenerator (this.n_next_pieces,
                                                          game_difficulty[size].n_types);
         generate_next_pieces ();
 
@@ -160,17 +172,25 @@ private class Game : Object
 
             board.set_piece (row, col, next_pieces_queue [i]);
 
-            Gee.HashSet<Cell> inactivate =
-            board.get_cell (row, col).get_all_directions (board.get_grid ());
-            if (inactivate.size > 0)
+            var line_result = board.get_cell (row, col).get_all_lines_composite (board.get_grid ());
+            if (line_result.has_any_lines())
             {
-                n_filled_cells -= inactivate.size;
-                foreach (Cell cell in inactivate)
+                var cells_to_remove = line_result.get_cells_to_remove();
+                n_filled_cells -= cells_to_remove.size;
+
+                // Emit line detection signal for debugging
+                line_detection_performed (row, col, true, cells_to_remove.size);
+
+                foreach (Cell cell in cells_to_remove)
                 {
                     board.set_piece (cell.row, cell.col, null);
                 }
 
-                update_score (inactivate.size);
+                if (line_result.has_composite_lines) {
+                    update_composite_score (line_result.composite_lines);
+                } else {
+                    update_score (cells_to_remove.size);
+                }
             }
 
             board.grid_changed ();
@@ -187,7 +207,17 @@ private class Game : Object
 
     private void update_score (int n_matched)
     {
-        score += (int) (45 * Math.log (0.25 * n_matched));
+        var constants = get_game_constants();
+        score += (int) (constants.SCORE_BASE_MULTIPLIER * Math.log (constants.SCORE_LOG_FACTOR * n_matched));
+    }
+
+    private void update_composite_score (Gee.ArrayList<CompositeLine> composite_lines)
+    {
+        int composite_score = CompositeScoring.calculate_multiple_lines_score (composite_lines);
+        string description = CompositeScoring.get_multiple_lines_description (composite_lines, composite_score);
+
+        score += composite_score;
+        composite_line_cleared (composite_lines, composite_score, description);
     }
 
     private bool check_game_over ()
@@ -223,7 +253,7 @@ private class Game : Object
 
         current_path_cell_pos = 0;
         animating_piece = current_path.get (current_path_cell_pos).piece;
-        Timeout.add (20, animate);
+        Timeout.add (get_game_constants().ANIMATION_STEP_MS, animate);
 
         return true;
     }
@@ -242,21 +272,29 @@ private class Game : Object
             board.set_piece (curr_cell.row, curr_cell.col, animating_piece);
 
             current_path = null;
-            var inactivate =
-                curr_cell.get_all_directions (board.get_grid ());
+            var line_result = curr_cell.get_all_lines_composite (board.get_grid ());
 
-            if (inactivate.size > 0)
+            if (line_result.has_any_lines())
             {
-                n_filled_cells -= inactivate.size;
-                foreach (Cell cell in inactivate)
+                var cells_to_remove = line_result.get_cells_to_remove();
+                n_filled_cells -= cells_to_remove.size;
+
+                // Emit line detection signal for debugging
+                line_detection_performed (curr_cell.row, curr_cell.col, true, cells_to_remove.size);
+
+                foreach (Cell cell in cells_to_remove)
                 {
                     board.set_piece (cell.row, cell.col, null);
                 }
 
-                update_score (inactivate.size);
+                if (line_result.has_composite_lines) {
+                    update_composite_score (line_result.composite_lines);
+                } else {
+                    update_score (cells_to_remove.size);
+                }
             }
 
-            if (inactivate.size < Game.N_MATCH)
+            if (!line_result.has_any_lines())
                 next_step ();
 
             board.grid_changed ();
@@ -270,10 +308,33 @@ private class Game : Object
         return Source.CONTINUE;
     }
 
-    internal void new_game (int _size)
+    internal void new_game (int _size, int _difficulty = -1)
     {
         size = _size;
+        if (_difficulty >= 0)
+            difficulty = _difficulty;
         init_game ();
+    }
+
+    internal void change_difficulty (int _difficulty)
+    {
+        difficulty = _difficulty;
+        init_game ();
+    }
+
+    internal string get_difficulty_name ()
+    {
+        switch (difficulty_levels[difficulty].key) {
+            case "easy":   return _("Easy");
+            case "normal": return _("Normal");
+            case "hard":   return _("Hard");
+            default:       return _("Normal");
+        }
+    }
+
+    internal int get_pieces_per_round ()
+    {
+        return difficulty_levels[difficulty].pieces_per_round[size];
     }
 }
 
@@ -283,6 +344,13 @@ private struct GameDifficulty
     public int n_rows;
     public int n_types;
     public int n_next_pieces;
+}
+
+private struct DifficultyLevel
+{
+    public string key;
+    public string name;
+    public int[] pieces_per_round;
 }
 
 private struct KeyValue

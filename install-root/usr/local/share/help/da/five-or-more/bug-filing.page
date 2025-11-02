@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Rapportér et problem</title>
+  <p>
+    <app>Five or More</app> is maintained by a volunteer community. You are welcome to participate.  If you notice a problem you can file a <em>bug report</em>. To file a bug, go to <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/>.
+  </p>
+  <p>Det er et fejlsporingssystem, hvor brugere og udviklere kan rapportere detaljer om fejl og nedbrud eller anmode om forbedringer.</p>
+  <p>For at deltage skal du logge ind, hvorved du får adgang, mulighed for at rapportere fejl og skrive kommentarer. Det er også nødvendigt at logge ind med en af dine eksisterende konti eller tilmelde en ny konto, så du kan modtage opdateringer om fejlens status via e-mail. Har du ikke allerede en konto, og vil du ikke bruge nogen af de tilgængelige loginmuligheder, så klik blot på <gui>Tilmeld</gui>-linket for at oprette en.</p>
+
+  <p>Når du har en konto, så log ind og klik på <guiseq><gui>Projects</gui><gui>five-or-more</gui><gui>Issues</gui><gui>New issue</gui></guiseq>. Inden du rapporterer en fejl, så læs venligst <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">retningslinjer til fejlrapportering</link> og <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">se</link> venligst, om fejlen allerede er anmeldt.</p>
+  <p>Udfyld titlen og beskrivelsen og klik på <gui>Submit issue</gui>.</p>
+  <p>Din rapport gives et id-nummer og dens status opdateres, efterhånden som der arbejdes på den.</p>
+</page>

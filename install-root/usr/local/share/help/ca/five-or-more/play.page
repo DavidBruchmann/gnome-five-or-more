@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="ca">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel</mal:name>
+      <mal:email>danielof7@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Sanchis</mal:name>
+      <mal:email>joansanchis@pm.me</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Com jugar</title>
+
+  <p>Per a començar un nou joc, feu clic al botó del menú al cantó superior dret de la finestra i seleccioneu <gui style="menuitem">Partida nova</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Utilització del ratolí</title>
+
+  <steps>
+    <item>
+      <p>Feu clic en l'objecte que voleu moure. L'objecte seleccionat començarà a moure's.</p>
+    </item>
+    <item>
+      <p>Feu clic a la cel·la de destinació. L'objecte seleccionat es mourà a la cel·la de destinació, si hi ha camí lliure.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Utilització del teclat</title>
+
+  <steps>
+    <item>
+      <p>Pressioneu qualsevol tecla de les fletxes. Una línia envoltarà una cel·la al tauler.</p>
+    </item>
+    <item>
+      <p>Utilitzant les tecles de direcció, i les tecles <key>Inici</key>, <key>Fi</key>, <key>Re Pàg</key> i <key>Av Pàg</key> per a desplaçar-se cap a l'objecte que voleu moure.</p>
+    </item>
+    <item>
+      <p>Per a seleccionar l'objecte, pressioneu <key>Intro</key>, <key>Barra Espaiadora</key> o <key>Retorn</key>. L'objecte seleccionat començarà a moure's.</p>
+    </item>
+    <item>
+      <p>Mou a la cel·la de destí, i de nou pressioneu <key>Intro</key>, <key>Barra Espaiadora</key> o <key>Retorn</key>. L'objecte seleccionat es mourà cap a la cel·la de destí, si hi ha un camí lliure.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Demostració en vídeo</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

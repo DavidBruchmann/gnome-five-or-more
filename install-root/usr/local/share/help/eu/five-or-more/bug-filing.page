@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Jakinarazi akats bat</title>
+  <p>
+    <app>Five or More</app> is maintained by a volunteer community. You are welcome to participate.  If you notice a problem you can file a <em>bug report</em>. To file a bug, go to <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/>.
+  </p>
+  <p>Akatsei segimendua egiteko sistema bat da, erabiltzaileek eta garatzaileek akatsei eta kraskadurei buruzko xehetasunak eman ditzaten edo hobekuntzak eskatu ditzaten balio duena.</p>
+  <p>Parte hartzeko, kontu bat sortu beharko duzu. Horrela, akatsak bete, iruzkinak egin eta zure akatsak duen egoerari buruzko eguneratzeak posta bidez eskuratu ahal izango dituzu. Oraindik konturik ez baduzu, egin klik <gui>Erregistratu</gui> estekan kontu bat sortzeko.</p>
+
+  <p>Kontu bat sortu ondoren, hasi saioa eta egin klik <guiseq><gui>Proiektuak</gui><gui>five-or-more</gui><gui>Issues</gui><gui>Auzi berria</gui></guiseq> aukeran. Akats bat jakinarazi baino lehen, irakurri <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">akatsak idazteko gidalerroak</link> eta <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">arakatu</link> lehendik daudenak, jakiteko ea zure akatsa jadanik badagoen ala ez.</p>
+  <p>Bete izenburua eta deskribapena eta sakatu <gui>Bidali auzia</gui>.</p>
+  <p>Zure txostenari ID zenbaki bat emango zaio eta bere egoera eguneratu egingo da aldaketaren bat dagoenean.</p>
+</page>

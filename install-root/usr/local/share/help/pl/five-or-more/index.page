@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="pl">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Kulki</title>
+    <title type="text">Kulki</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru Lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Logo gry Kulki</span></media> Kulki</title>
+
+  <p><app>Kulki</app> to zwodniczo prosta łamigłówka. Celem jest umieszczenie co najmniej pięciu kulek o tym samym <link xref="change-theme#images">kolorze lub kształcie</link> w prostej linii. Linia może być pozioma, pionowa lub ukośna. Po połączeniu pięciu lub więcej kulek w linię znikają one z planszy. Celem jest usunięcie jak największej liczby kulek. Gra kończy się, kiedy cała plansza jest zapełniona.</p>
+
+
+  <section id="play" style="2column">
+    <title>Rozgrywka</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Wskazówki</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Zaawansowane</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Dołącz do nas</title>
+  </section>
+
+</page>

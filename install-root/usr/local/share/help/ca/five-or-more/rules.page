@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="ca">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel</mal:name>
+      <mal:email>danielof7@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Sanchis</mal:name>
+      <mal:email>joansanchis@pm.me</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Regles</title>
+  <list>
+    <item><p>A l'inici del joc hi ha entre 3 i 7 objectes col·locats al teu tauler, depenent de la <link xref="change-board-size">dimensió del tauler</link>.</p></item>
+
+    <item><p>Cada cop que <link xref="play">moveu un objecte</link>, es col·loquen objectes addicionals de manera aleatòria al tauler. El nombre de nous objectes col·locats a cada torn depèn també del tauler. A la cantonada superior esquerra de la finestra podeu veure els objectes que s'hi col·locaran.</p></item>
+
+    <item><p>Cal que el camí des de la posició original de l'objecte a la cel·la de destinació sigui lliure d'obstacles (per exemple, no es pot saltar per sobre d'objectes).</p></item>
+
+    <item><p>Les línies rectes horitzontals, verticals o diagonals de cinc o més objectes semblants desapareixeran del tauler. Quan això passi, tindreu un moviment addicional sense que s'afegeixin més objectes al tauler.</p></item>
+
+    <item><p>Com més objectes en traieu, més temps durarà la partida. Com més temps duri la partida, més alta serà la vostra <link xref="scores">puntuació</link>.</p></item>
+
+    <item><p>La partida s'acaba quan el tauler és ple, ja que llavors no es pot moure cap objecte.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Exemple d'alineació horitzontal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Exemple d'alineació vertical</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Exemple d'alineació diagonal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Fi de partida de <app>Cinc o més</app>.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

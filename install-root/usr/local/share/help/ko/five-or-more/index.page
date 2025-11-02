@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="ko">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">다섯개</title>
+    <title type="text">다섯개</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>크리에이티브 커먼즈 동일조건변경허락 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2021, 2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">다섯개 로고</span></media> 다섯개</title>
+
+  <p><app>다섯개</app>는 심심풀이용 두뇌 게임입니다. 동일한 <link xref="change-theme#images">색 또는 모양</link>을 지닌 다섯개 객체를 일렬로 맞추는게 게임의 목표입니다. 줄은, 수평, 수직, 대각선일 수 있습니다. 다섯개 이상 한 줄에 맞추면 없어집니다. 가능한한 더 많은 객체를 없애는게 목표입니다. 게임판이 가득차면 게임이 끝납니다.</p>
+
+
+  <section id="play" style="2column">
+    <title>게임하기</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>유용한 정보</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>고급</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>참여하기</title>
+  </section>
+
+</page>

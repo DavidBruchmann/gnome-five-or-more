@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="uk">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">П'ять або більше</title>
+    <title type="text">П'ять або більше</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Логотип «П'яти або більше»</span></media> П'ять або більше</title>
+
+  <p><app>П'ять або більше</app> — оманливо проста вправа для мозку. Метою гри є розташувати на дошці принаймні п'ять об'єктів одного <link xref="change-theme#images">кольору або форми</link> уздовж прямої лінії. Лінія може бути горизонтальною, вертикальною або діагональною. Коли п'ять або більше об'єктів буде згруповано у лінію, вони зникнуть. Метою гри є усування якомога більшої кількості об'єктів. Гру буде завершено, коли всю дошку буде заповнено.</p>
+
+
+  <section id="play" style="2column">
+    <title>Ігровий процес</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Корисні поради</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Додатково</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Приєднатися до команди</title>
+  </section>
+
+</page>

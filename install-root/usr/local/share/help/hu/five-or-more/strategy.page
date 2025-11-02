@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="hu">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Stratégia</title>
+
+  <p>Nincs univerzális stratégia az <app>Öt vagy több</app> játékhoz, de létezik néhány stratégiai elem. Néhány, a játék során észben tartandó tanács:</p>
+  <list>
+    <item><p>Próbáljon legalább három hasonló objektumot sorba állítani minden lépéssel.</p></item>
+    <item><p>A tábla gyorsan megtelhet objektumokkal, így érdemes előre gondolkodni. Figyelje a <gui>Következő</gui> objektumok listáját, és ennek ismeretében lépjen.</p></item>
+    <item><p>Próbáljon meg 5-nél több objektumot sorba állítani. 6 objektumot például érdemes úgy sorba állítani, hogy egy 2 és 3 objektum közti résbe helyezi el a hatodikat.</p></item>
+  </list>
+</page>

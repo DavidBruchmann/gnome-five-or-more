@@ -20,7 +20,7 @@ if desktop_file_validate.found()
 endif
 
 # Themes
-foreach file: ['balls.svg', 'shapes.svg', 'tango.svg']
+foreach file: ['balls.svg', 'shapes.svg', 'tango.svg', 'template.svg', 'overlay-template.svg']
   install_data (file,
                 install_dir: join_paths(pkgdata_dir, 'themes')
   )
@@ -78,7 +78,26 @@ install_data ('org.gnome.five-or-more.gschema.xml',
 
 # Gresource
 resource_files = files ('org.gnome.five-or-more.gresource.xml')
+
+# Generate fallback resources if needed
+fallback_generator = find_program(join_paths(meson.project_source_root(), 'tools', 'generate-fallback-resources.py'), required: false)
+if fallback_generator.found()
+  run_command(
+    fallback_generator,
+    '--data-dir', meson.current_source_dir(),
+    '--output-dir', meson.current_build_dir(),
+    '--gresource-file', files('org.gnome.five-or-more.gresource.xml')[0],
+    '--generate-checksums',
+    check: false
+  )
+endif
+
 resources = gnome.compile_resources ('five-or-more', resource_files)
+
+# Sample configuration file
+install_data ('game-constants.conf.sample',
+  install_dir: join_paths (data_dir, 'five-or-more', 'examples')
+)
 
 # Manpage
 install_man (

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="cs">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Strategie</title>
+
+  <p>Pro hru <app>Pět nebo víc</app> neexistuje žádná univerzální strategie, ale určité strategické postupy existují. Zde je pár věcí, které můžete vyzkoušet a je dobré je mít při hraní na paměti:</p>
+  <list>
+    <item><p>V každé tahu se snažte získat seřazené alespoň tři hrací kameny.</p></item>
+    <item><p>Hrací deska se může hracími kameny velmi rychle přeplnit, proto je dobré myslet dopředu. Všímejte si sady <gui>Následujících</gui> kamenů, protože tahle znalost může pomoci ovlivnit vaše tahy.</p></item>
+    <item><p>Pokoušejte se vytvářet řady více než 5 objektů. Například, když chcete 6 kamenů, vytvořte řadu ze 2 a ze 3 s místem mezi nimi a v následujícím tahu je umístěním kamenu mezi ně spojte do šestice.</p></item>
+  </list>
+</page>

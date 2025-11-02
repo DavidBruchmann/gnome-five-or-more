@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="es">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Cinco o más</title>
+    <title type="text">Cinco o más</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011-2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Logo de Cinco o más</span></media> Cinco o más</title>
+
+  <p><key>Cinco o más</key> es un entrenamiento para el cerebro muy sencillo. El objetivo es colocar al menos cinco objetos con la misma <link xref="change-theme#images">forma o color</link>en línea recta. La línea puede ser vertical, horizontal o diagonal. Cuando haya cinco o más objetos agrupados en una línea, desaparecerán. El objetivo es hacer desaparecer el mayor número posible de objetos. El juego termina cuando el tablero se llena.</p>
+
+
+  <section id="play" style="2column">
+    <title>Juego</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Consejos útiles</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Avanzado</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Involucrarse</title>
+  </section>
+
+</page>

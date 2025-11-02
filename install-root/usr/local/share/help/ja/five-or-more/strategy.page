@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="ja">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2016</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>コツ</title>
+
+  <p><app>Five or More</app> の普遍的な定石は知られていませんが、コツはいくつかあります。覚えておくべきコツをいくつか紹介します。</p>
+  <list>
+    <item><p>石を動かすときは、同じ種類の石が常に 3 つ以上並ぶようにすること。</p></item>
+    <item><p>盤はすぐに石であふれかえるので、先を見越して石を動かすこと。<gui>次</gui>に追加される石に注意を払って、石の動かし方を考えてください。</p></item>
+    <item><p>石を 6 つ以上並べるようにすること。たとえば、6 つの列を作る場合、まず石 2 つの列と 3 つの列を、間 1 マス空けて作っておきます。次に、その間のマスを6 番目の石で埋めて繋ぎ合わせれば、石 6 つの列ができあがります。</p></item>
+  </list>
+</page>

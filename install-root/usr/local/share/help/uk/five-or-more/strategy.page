@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="uk">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Стратегія</title>
+
+  <p>У <app>П'ять або більше</app> немає універсальної стратегії, але існують деякі корисні стратегічні міркування. Нижче наведено декілька пора, на які слід зважати під час гри:</p>
+  <list>
+    <item><p>Намагайтеся створювати лінію з принаймні трьох однакових об'єктів під час кожного вашого ходу.</p></item>
+    <item><p>Дошка доволі швидко заповнюється об'єктами, тому варто продумувати кожен свій хід наперед. Звертайте увагу на набір <gui>Наступних</gui> об'єктів, оскільки він впливає на найкращий хід у поточній позиції.</p></item>
+    <item><p>Намагайтеся створювати лінії з понад 5 об'єктів. Наприклад, якщо на дошці є 6 об'єктів, ви можете створити з них лінії з 2 і 3 об'єктів із проміжком між ним, а потім з'єднати ці лінії, розташувавши між ними шостий об'єкт.</p></item>
+  </list>
+</page>

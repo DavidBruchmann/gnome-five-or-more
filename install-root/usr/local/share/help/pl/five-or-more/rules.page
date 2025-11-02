@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="pl">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zasady</title>
+  <list>
+    <item><p>Na początku gry na planszy są 3 lub 7 kulek, w zależności od <link xref="change-board-size">rozmiaru planszy</link>.</p></item>
+
+    <item><p>Po każdym <link xref="play">przeniesieniu kulki</link> na planszy pojawiają się nowe, wybrane losowo. Ich liczba także zależy od planszy. W górnym lewym rogu okna gry widoczne są kulki, które zostaną umieszczone na planszy w następnej rundzie.</p></item>
+
+    <item><p>Między obecnym położeniem kulki a komórką docelową musi być wolne przejście (tzn. nie można przechodzić nad innymi kulkami).</p></item>
+
+    <item><p>Prosta pozioma, pionowa lub ukośna linia pięciu lub więcej podobnych kulek zniknie z planszy. Gracz dostaje dodatkowy ruch bez dodawania nowych kulek do planszy.</p></item>
+
+    <item><p>Im więcej kulek zostaje usuniętych, tym gra trwa dłużej. Im dłużej gra trwa, tym wyższy <link xref="scores">wynik</link>.</p></item>
+
+    <item><p>Gra kończy się, kiedy plansza jest pełna, jako że nie można już przenieść żadnej kulki.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Przykład ułożenia w poziomie</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Przykład ułożenia w pionie</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Przykład ułożenia ukośnego</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Koniec gry <app>Kulki</app>.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

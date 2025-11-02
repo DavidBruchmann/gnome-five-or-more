@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="uk">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <desc>Правові відомості.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ліцензування</title>
+  <p>Ця робота поширюється за умов ліцензування CreativeCommons Attribution-Share Alike 3.0 Unported.</p>
+  <p>Ви можете:</p>
+  <terms>
+    <item>
+      <title><em>Ділитися</em></title>
+      <p>Копіювати, поширювати і передавати цю роботу</p>
+    </item>
+    <item>
+      <title><em>Змінювати</em></title>
+      <p>Адаптувати цю роботу.</p>
+    </item>
+  </terms>
+  <p>За дотримання таких умов:</p>
+  <terms>
+    <item>
+      <title><em>Посилання на джерело</em></title>
+      <p>Ви маєте вказати авторство так, як це визначено автором або ліцензіатом (але не у такий спосіб, наче вони підтримують вас або ваше використання роботи).</p>
+    </item>
+    <item>
+      <title><em>Поширення на тих самих умовах</em></title>
+      <p>Якщо ви змінюєте, перетворюєте або створюєте роботу на основі цієї роботи, ви можете поширювати результати лише за тих самих, подібних або сумісних умов ліцензування.</p>
+    </item>
+  </terms>
+  <p>Щоб ознайомитися із повним текстом ліцензійних умов, скористайтеся <link href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">сайтом CreativeCommons</link> або прочитайте повністю <link href="http://creativecommons.org/licenses/by-sa/3.0/">Commons Deed</link>.</p>
+</page>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="ru">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <desc>Правовая информация.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2024</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Лицензия</title>
+  <p>Эта работа распространяется под лицензией CreativeCommons Attribution-Share Alike 3.0 Unported.</p>
+  <p>Вы свободны:</p>
+  <terms>
+    <item>
+      <title><em>Делиться</em></title>
+      <p>Копировать, распространять и передавать эту работу.</p>
+    </item>
+    <item>
+      <title><em>Изменять</em></title>
+      <p>Адаптировать эту работу.</p>
+    </item>
+  </terms>
+  <p>При следующих условиях:</p>
+  <terms>
+    <item>
+      <title><em>Ссылка на источник</em></title>
+      <p>Вы должны указать авторство работы в порядке, указанном автором или лицензиатом (но не таким образом, что они поддерживают вас или использование вами работы).</p>
+    </item>
+    <item>
+      <title><em>Share Alike</em></title>
+      <p>Если вы изменяете, трансформируете или берёте за основу данную работу, вы можете распространять полученное произведение только по такой же, подобной или совместимой лицензии.</p>
+    </item>
+  </terms>
+  <p>Полный текст лицензии смотрите на <link href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">веб-сайте CreativeCommons</link>, или прочитайте полный текст <link href="http://creativecommons.org/licenses/by-sa/3.0/">Commons Deed</link>.</p>
+</page>

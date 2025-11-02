@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="hu">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Szabályok</title>
+  <list>
+    <item><p>A játék kezdetén 3 vagy 7 objektum van a táblán elhelyezve, a <link xref="change-board-size">táblamérettől</link> függően.</p></item>
+
+    <item><p>Egy <link xref="play">objektum mozgatása</link> után újabb objektumok jelennek meg véletlenszerűen a táblán. Az egyes körökben elhelyezett új objektumok száma szintén a tábla méretétől függ. A táblán elhelyezendő objektumok előnézete a játékablak bal felső sarkában jelenik meg.</p></item>
+
+    <item><p>Az objektum eredeti pozíciója és a cél cella között szabad útnak kell lennie, azaz nem lehet más objektumokat átugrani.</p></item>
+
+    <item><p>Öt vagy több hasonló objektumból álló vízszintes, függőleges vagy átlós vonal eltűnik a játéktábláról. Ha ez megtörténik, akkor lesz egy extra lépése, amikor nem kerülnek új objektumok a táblára.</p></item>
+
+    <item><p>Minél több objektumot távolít el, annál tovább tart a játék. Minél tovább játszik, annál több <link xref="scores">pontot</link> kap.</p></item>
+
+    <item><p>Ha a tábla megtelik, a játék véget ér, mert ekkor már egy objektum sem mozgatható.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Példa vízszintes elrendezés</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Példa függőleges elrendezés</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Példa átlós elrendezés</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Vége az <app>Öt vagy több</app> játéknak.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

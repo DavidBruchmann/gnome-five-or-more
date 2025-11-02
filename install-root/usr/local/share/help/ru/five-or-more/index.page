@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="ru">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Пять или более</title>
+    <title type="text">Пять или более</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2024</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Пять или более</title>
+
+  <p><app>Пять или более</app> - это обманчиво простая тренировка мозга. Цель состоит в том, чтобы выстроить как минимум пять объектов одного и того же <link xref="change-theme#images"> цвета или формы</link> в прямую линию. Линия может быть горизонтальной, вертикальной или диагональной. Как только пять или более объектов сгруппированы в линию, они исчезают. Целью является уничтожение как можно большего числа объектов. Игра заканчивается, когда вся доска заполнена.</p>
+
+
+  <section id="play" style="2column">
+    <title>Игровой процесс</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Полезные советы</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Дополнительно</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Присоединяйтесь</title>
+  </section>
+
+</page>

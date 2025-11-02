@@ -1,0 +1,115 @@
+# Five or More Game Constants Configuration
+# Copy this file to ~/.config/five-or-more/game-constants.conf to customize
+# Remove any section or key to use default values
+
+[GameRules]
+# Number of pieces needed to form a line (default: 5)
+N_MATCH=5
+
+# Number of different piece types (default: 7)
+N_TYPES=7
+
+# Number of animation frames (default: 4)
+N_ANIMATIONS=4
+
+# Enable combo play - gap-separated patterns like 2+3, 3+2 (default: false)
+# Set to true for advanced combo gameplay, false for traditional Five-or-More rules
+ENABLE_COMPOSITE_LINES=false
+
+[BoardSizes]
+# Board configurations: cols, rows, piece_types, next_pieces
+# Small board (default: 7,7,5,3)
+small=7;7;5;3
+
+# Medium board (default: 9,9,7,3)
+medium=9;9;7;3
+
+# Large board (default: 20,15,7,7)
+large=20;15;7;7
+
+[Difficulty]
+# Number of pieces added per round for each difficulty
+# Values are for small;medium;large board sizes respectively
+# Easy difficulty (default: 2;3;4)
+easy_pieces=2;3;4
+
+# Normal difficulty (default: 2;3;4)
+normal_pieces=2;3;4
+
+# Hard difficulty (default: 4;7;10)
+hard_pieces=4;7;10
+
+[UI]
+# Minimum board size in pixels (default: 256)
+MINIMUM_BOARD_SIZE=256
+
+# Debug panel width in pixels (default: 350)
+DEBUG_PANEL_WIDTH=350
+
+# Debug log height in pixels (default: 150)
+DEBUG_LOG_HEIGHT=150
+
+# Maximum debug messages to keep (default: 100)
+MAX_DEBUG_MESSAGES=100
+
+[Scoring]
+# Base multiplier for score calculation (default: 45)
+SCORE_BASE_MULTIPLIER=45
+
+# Logarithmic factor for score calculation (default: 0.25)
+SCORE_LOG_FACTOR=0.25
+
+[Animation]
+# Animation duration in milliseconds (default: 1500)
+ANIMATION_DURATION_MS=1500
+
+# Animation frame interval in milliseconds (default: 50)
+ANIMATION_FRAME_MS=50
+
+# Animation step interval in milliseconds (default: 20)
+ANIMATION_STEP_MS=20
+
+[Accessibility]
+# WCAG AA contrast ratio (default: 4.5)
+WCAG_AA_RATIO=4.5
+
+# WCAG AAA contrast ratio (default: 7.0)
+WCAG_AAA_RATIO=7.0
+
+# Base threshold for colorblind detection (default: 50.0)
+COLORBLIND_THRESHOLD_BASE=50.0
+
+# Threshold for red-green colorblindness (default: 75.0)
+COLORBLIND_THRESHOLD_RG=75.0
+
+[Theme]
+# Default piece radius (default: 37.5)
+DEFAULT_PIECE_RADIUS=37.5
+
+# Base sprite size for themes (default: 100)
+THEME_SPRITE_BASE_SIZE=100
+
+# SVG template width (default: 400)
+SVG_TEMPLATE_WIDTH=400
+
+# SVG template height (default: 700)
+SVG_TEMPLATE_HEIGHT=700
+
+# Size of next pieces preview in header bar in pixels (default: 24)
+NEXT_PIECES_SIZE=24
+
+# Show color names as tooltips on next pieces (default: true)
+NEXT_PIECES_SHOW_TOOLTIPS=true
+
+[Window]
+# Default window width (default: 320)
+DEFAULT_WINDOW_WIDTH=320
+
+# Default window height (default: 400)
+DEFAULT_WINDOW_HEIGHT=400
+
+# Maximum window width (default: 4096)
+MAX_WINDOW_WIDTH=4096
+
+# Maximum window height (default: 4096)
+MAX_WINDOW_HEIGHT=4096

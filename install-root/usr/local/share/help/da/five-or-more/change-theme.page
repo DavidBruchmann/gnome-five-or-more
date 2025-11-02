@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-theme" xml:lang="da">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ændr udseendet og fremtoningen</title>
+  <p>Sådan ændres udseendet på brikkerne og brættet:</p>
+
+  <steps>
+    <item><p>Tryk på menuknappen i øverste højre hjørne af vinduet og vælg <gui style="menuitem">Indstillinger</gui>.</p>
+
+    <list>
+    <item><p>Vælg <gui>kugler</gui>, <gui>former</gui> eller <gui>tango</gui> fra rullegardinsmenuen <gui>Tema</gui> for at ændre spillets brikker.</p></item>
+    <item><p>Klik på boksen med farverne ved siden af <gui>Baggrundsfarve</gui> for at få adgang til farvepaletten.</p></item>
+    </list>
+    </item>
+    <item><p>Luk dialogen <gui>Indstillinger</gui>.</p></item>
+  </steps>
+
+</page>

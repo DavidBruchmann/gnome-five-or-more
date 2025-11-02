@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="ko">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2021, 2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>게임판 크기 바꾸기</title>
+    <p>게임판 크기를 바꾸려면:</p>
+    <list>
+      <item><p>창 우측 상단의 메뉴 단추를 누릅니다.</p></item>
+      <item><p>Select <gui>Small</gui>, <gui>Medium</gui>, or <gui>Large</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>더 큰 게임판에서 게임할 공간을 더 많이 주는 만큼, 각 횟수마다 플레이할 객체가 더 많아집니다.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>게임판 매개변수</title>
+      <p>세가지 제각기 다른 게임판 크기는 다음 매개변수 값을 따릅니다:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>크기</em></p></td>
+        <td><p><em>너비</em></p></td>
+        <td><p><em>높이</em></p></td>
+        <td><p><em/></p></td>
+        <td><p><em>회차당 새 객체</em></p></td>
+        <td><p><em>칸 수</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>작게</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>중간</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>크게</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>세가지 게임판 크기</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>다섯개</app> 작은 게임판</p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>다섯개</app> 중간 크기 게임판</p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>다섯개</app> 큰 크기 게임판</p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

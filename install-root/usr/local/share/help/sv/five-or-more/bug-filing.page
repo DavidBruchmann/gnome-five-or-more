@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2007, 2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Erik Sköldås</mal:name>
+      <mal:email>erik.skoldas@tele2.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Rapportera ett problem</title>
+  <p><app>Fem eller mer</app> underhålls av en frivillig gemenskap. Du är välkommen att delta. Om du upptäcker ett problem kan du skicka in en <em>felrapport</em>. För att skicka in en felrapport, gå till <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/>.</p>
+  <p>Det här är ett felrapporteringssystem där användare och utvecklare kan lämna information om fel, krascher och önska förbättringar.</p>
+  <p>För att delta behöver du logga in, vilket ger dig möjlighet att få åtkomst, rapportera fel och lämna kommentarer. Dessutom måste du logga in med ett av dina befintliga konton eller registrera ett nytt konto för att kunna ta emot uppdateringar om status för din felrapport via e-post. Om du inte redan har ett konto och inte vill använda något av de tillgängliga inloggningsalternativen, klicka bara på länken <gui>Register</gui> för att skapa ett konto.</p>
+
+  <p>När du väl har ett konto, logga in, klicka på <guiseq><gui>Projects</gui><gui>five-or-more</gui><gui>Issues</gui><gui>New issue</gui></guiseq>. Innan du rapporterar ett fel, läs <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">riktlinjerna för felrapporter</link>, och <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">sök</link> för att se om felet redan är rapporterat.</p>
+  <p>Fyll i avsnitten Title och Description och klicka på <gui>Submit issue</gui>.</p>
+  <p>Din rapport kommer att ges ett ID-nummer, och dess status kommer att uppdateras när den behandlas.</p>
+</page>

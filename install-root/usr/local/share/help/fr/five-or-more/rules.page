@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="fr">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jean-Baptiste Holcroft</mal:name>
+      <mal:email>jean-baptiste@holcroft.fr</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020-2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Règles</title>
+  <list>
+    <item><p>Au début du jeu, il y a 3 ou 7 objets disposés sur le plateau en fonction de la <link xref="change-board-size">taille du plateau</link>.</p></item>
+
+    <item><p>À chaque fois que vous <link xref="play">déplacez un objet</link>, des objets supplémentaires sont placés aléatoirement sur le plateau. Le nombre de nouveaux objets placés à chaque tour dépend de la taille du plateau. Une prévisualisation des objets qui vont être placés apparaît dans le coin supérieur gauche de la fenêtre du jeu.</p></item>
+
+    <item><p>Le chemin entre la position initiale de l’objet et la cellule de destination doit être libre (c.-à-d. que vous ne pouvez pas sauter par dessus des objets).</p></item>
+
+    <item><p>Une ligne droite horizontale, verticale ou diagonale de cinq objets similaires ou plus disparaît automatiquement du plateau de jeu dès qu’elle est créée. Lorsque cela se produit, vous bénéficiez d’un mouvement supplémentaire sans ajout d’objets sur le plateau.</p></item>
+
+    <item><p>Plus vous effacez d’objets, plus la partie est longue. Plus vous jouez longtemps, plus votre <link xref="scores">score</link> augmente.</p></item>
+
+    <item><p>La partie est terminée lorsque le plateau est plein, puisqu’aucun objet ne peut plus alors être déplacé.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Exemple d’alignement horizontal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Exemple d’alignement vertical</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Exemple d’alignement en diagonale</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Position de fin de partie de <app>Cinq ou plus</app>.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

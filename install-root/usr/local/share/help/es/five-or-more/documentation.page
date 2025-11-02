@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="documentation" xml:lang="es">
+  <info>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+   <link type="guide" xref="index#get-involved"/>
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011-2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ayudar a escribir documentación</title>
+
+  <p>La documentación de los <app>juegos de GNOME</app> las mantiene una comunidad de voluntarios. Si quiere participar es bienvenido/a .</p>
+
+<p>To contribute to the Documentation Project, feel free to get in touch with
+us in <link href="https://matrix.to/#/#docs:gnome.org">#docs:gnome.org</link>
+on <link xref="help:gnome-help/help-matrix">Matrix</link> or
+<link href="https://web.libera.chat/#gnome-docs">#gnome-docs</link> on
+irc.libera.chat, or via
+<link href="https://discourse.gnome.org/tag/documentation">GNOME Discourse</link>.</p>
+
+  <p>El <link href="https://live.gnome.org/DocumentationProject/Contributing">wiki</link> contiene información útil.</p>
+
+</page>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="pl">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Strategia</title>
+
+  <p>Dla gry <app>Kulki</app> nie ma uniwersalnej strategii, ale warto pamiętać kilka rzeczy:</p>
+  <list>
+    <item><p>Staraj się, aby każdy ruch ustawiał co najmniej trzy takie same kulki.</p></item>
+    <item><p>Plansza może szybko zapełnić się kulkami, więc dobrze jest myśleć z wyprzedzeniem. Zwracaj uwagę na <gui>Następne</gui> kulki, ponieważ wpływają one na decyzje podczas gry.</p></item>
+    <item><p>Staraj się łączyć więcej niż 5 kulek. Na przykład, jeśli masz 6 kulek, to możesz połączyć 2 i 3 z przerwą między nimi, a następnie połączyć je szóstą kulką.</p></item>
+  </list>
+</page>

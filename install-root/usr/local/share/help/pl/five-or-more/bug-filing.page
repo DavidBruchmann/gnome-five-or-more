@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zgłaszanie problemów</title>
+  <p>Gra <app>Kulki</app> jest tworzona przez społeczność ochotników. Zapraszamy do współpracy. Jeśli wystąpił jakiś błąd, to można go zgłosić na stronie <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/> (w języku angielskim).</p>
+  <p>To system śledzenia błędów, w którym użytkownicy i programiści mogą zgłaszać informacje o błędach, awariach i prośby o ulepszenia.</p>
+  <p>Do wzięcia udziału potrzeba się zalogować, co daje dostęp, możliwość zgłaszania błędów i pisania komentarzy. Zalogowanie się za pomocą jednego z istniejących kont lub zarejestrowanie nowego umożliwia także otrzymywanie powiadomień pocztą e-mail o stanie błędu. Jeśli nie masz jeszcze konta i nie chcesz używać żadnych z dostępnych opcji logowania, to kliknij odnośnik <gui>Register</gui> (Zarejestruj się).</p>
+
+  <p>Po utworzeniu konta zaloguj się i kliknij <guiseq><gui>Projects</gui><gui>five-or-more</gui><gui>Issues</gui><gui>New issue</gui></guiseq> (<guiseq><gui>Projekty</gui><gui>five-or-more</gui><gui>Zgłoszenia</gui><gui>Nowe zgłoszenie</gui></guiseq>). Przed zgłoszeniem błędu prosimy przeczytać <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">wytyczne opisywania błędów</link> i <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">poszukać</link>, czy błąd został już zgłoszony.</p>
+  <p>Wypełnij sekcje „Title” (Tytuł) i „Description” (Opis) w języku angielskim i kliknij przycisk <gui>Submit issue</gui> (Wyślij zgłoszenie).</p>
+  <p>Zgłoszenie otrzyma numer identyfikujący, a jego stan będzie zmieniany razem z postępem jego rozwiązywania.</p>
+</page>

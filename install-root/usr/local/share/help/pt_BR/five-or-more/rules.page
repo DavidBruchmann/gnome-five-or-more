@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="pt_BR">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leônidas Araújo</mal:name>
+      <mal:email>lerousvellt@hotmail.com</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Regras</title>
+  <list>
+    <item><p>No início do jogo, existem 3 ou 7 objetos colocados no seu tabuleiro, dependendo do <link xref="change-board-size">tamanho do tabuleiro</link>.</p></item>
+
+    <item><p>Cada vez que você <link xref="play">move um objeto</link>, objetos adicionais são colocados aleatoriamente no tabuleiro. O número de novos objetos colocados em cada turno também depende da mesa. Uma prévia dos objetos a serem colocados no tabuleiro aparece no canto superior esquerdo da janela do jogo.</p></item>
+
+    <item><p>Deve haver um caminho claro da posição original do objeto até a célula de destino (ou seja, você não pode pular objetos).</p></item>
+
+    <item><p>Uma linha reta horizontal, vertical ou diagonal de cinco ou mais objetos semelhantes desaparecerá do tabuleiro de jogo. Quando isso acontecer, você terá um movimento extra sem que objetos adicionais sejam adicionados ao tabuleiro.</p></item>
+
+    <item><p>Quanto mais objetos você limpar, mais tempo o jogo continuará. Quanto mais tempo você joga, maior será sua <link xref="scores">pontuação</link>.</p></item>
+
+    <item><p>O jogo acaba quando o tabuleiro está cheio, já que nenhum objeto pode ser movido naquele ponto.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Exemplo de alinhamento horizontal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Exemplo de alinhamento vertical</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Exemplo de alinhamento diagonal</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Posição de fim de jogo do <app>Cinco ou Mais</app>.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

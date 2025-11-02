@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="pt_BR">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Cinco ou Mais</title>
+    <title type="text">Cinco ou Mais</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Atribuição Compartilhada Igual 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leônidas Araújo</mal:name>
+      <mal:email>lerousvellt@hotmail.com</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Logo do Cinco ou Mais</span></media> Cinco ou Mais</title>
+
+  <p><app>Cinco ou Mais</app> é um exercício cerebral enganadoramente simples. O objetivo é colocar pelo menos cinco objetos da mesma <link xref="change-theme#images">cor ou forma</link> em uma linha reta. A linha pode ser horizontal, vertical ou diagonal. Quando cinco ou mais objetos são agrupados em uma linha, eles desaparecem. O objetivo é eliminar o maior número de objetos possível. O jogo acaba quando todo o tabuleiro está cheio.</p>
+
+
+  <section id="play" style="2column">
+    <title>Tipo de jogo</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Dicas úteis</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Avançado</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Envolva-se</title>
+  </section>
+
+</page>

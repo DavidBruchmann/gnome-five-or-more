@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="pt_BR">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leônidas Araújo</mal:name>
+      <mal:email>lerousvellt@hotmail.com</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Estratégia</title>
+
+  <p>Não há uma estratégia universal para <app>Cinco ou Mais</app>, mas existem alguns elementos estratégicos. Aqui estão algumas coisas para tentar ter em mente enquanto joga:</p>
+  <list>
+    <item><p>Tente definir pelo menos três objetos iguais com todos os seus movimentos.</p></item>
+    <item><p>O tabuleiro pode rapidamente ficar muito cheio de objetos, então é melhor planejar antencipadamente. Preste atenção na coleção de objetos <gui>próximos</gui>, porque saber disso influenciará seus movimentos.</p></item>
+    <item><p>Tente alinhar mais de 5 objetos. Por exemplo, se você tiver 6 objetos, poderá alinhar 2 e 3 com um espaço intermediário e, em seguida, conectá-los, colocando o sexto objeto entre eles.</p></item>
+  </list>
+</page>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="translate" xml:lang="pl">
+
+  <info>
+   <link type="guide" xref="index#get-involved"/>
+
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+     <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <license>
+       <p>Creative Commons Share Alike 3.0</p>
+     </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Pomoc w tłumaczeniu</title>
+
+<p>Interfejs i dokumentacja <app>Gier GNOME</app> jest tłumaczona przez ogólnoświatową społeczność ochotników. Zapraszamy do współpracy.</p>
+<p><link href="https://l10n.gnome.org/module/five-or-more/">Wiele języków</link> nadal potrzebuje tłumaczeń.</p>
+<p>Do rozpoczęcia tłumaczenia potrzebne jest <link href="https://l10n.gnome.org">utworzenie konta</link> i dołączenie do <link href="https://l10n.gnome.org/teams/">zespołu tłumaczy</link> dla danego języka. Umożliwi to wysyłanie nowych tłumaczeń.</p>
+<p>Można skontaktować się z tłumaczami GNOME na kanale <link href="https://matrix.to/#/#i18n:gnome.org">#i18n:gnome.org</link> w sieci <link xref="help:gnome-help/help-matrix">Matrix</link> lub <link href="https://web.libera.chat/#gnome-i18n">#gnome-i18n</link> w sieci irc.libera.chat (w języku angielskim). Z powodu różnic stref czasowych odpowiedź może nie przyjść od razu.</p>
+<p>Można także skontaktować się z zespołem tłumaczeń za pomocą serwisu <link href="https://discourse.gnome.org/tag/i18n">GNOME Discourse</link> (w języku angielskim).</p>
+</page>

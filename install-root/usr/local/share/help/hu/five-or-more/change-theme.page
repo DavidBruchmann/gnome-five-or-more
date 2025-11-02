@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-theme" xml:lang="hu">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>A megjelenés megváltoztatása</title>
+  <p>A figurák és a tábla megjelenésének megváltoztatása:</p>
+
+  <steps>
+    <item><p>Nyomja meg az ablak jobb felső sarkában lévő menügombot, és válassza a <gui style="menuitem">Beállítások</gui> menüpontot.</p>
+
+    <list>
+    <item><p>Válassza a <gui>labdák</gui>, <gui>alakzatok</gui> vagy <gui>tango</gui> menüpontot a <gui>Téma</gui> legördülő menüből a figurák megváltoztatásához.</p></item>
+    <item><p>Kattintson a <gui>Kép háttere</gui> melletti színes négyzetre a színpaletta eléréséhez.</p></item>
+    </list>
+    </item>
+    <item><p>Zárja be a <gui>Beállítások</gui> ablakot.</p></item>
+  </steps>
+
+</page>

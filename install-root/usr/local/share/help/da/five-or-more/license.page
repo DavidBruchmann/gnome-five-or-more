@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="da">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <desc>Juridisk information.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Licens</title>
+  <p>Værket distribueres under en CreativeCommons Kreditering-Deling på samme vilkår 3.0 Ikke porteret-licens.</p>
+  <p>Du kan frit:</p>
+  <terms>
+    <item>
+      <title><em>Dele</em></title>
+      <p>Kopiere, videredistribuere og overføre værket.</p>
+    </item>
+    <item>
+      <title><em>Tilpasse</em></title>
+      <p>Tilpasse værket.</p>
+    </item>
+  </terms>
+  <p>Under følgende vilkår:</p>
+  <terms>
+    <item>
+      <title><em>Kreditering</em></title>
+      <p>Du skal kreditere værket på den måde, der er angivet af forfatteren eller licensgiveren (men ikke på en måde der antyder, at de støtter dig eller din brug af værket).</p>
+    </item>
+    <item>
+      <title><em>Deling på samme vilkår</em></title>
+      <p>Hvis du ændrer, omarbejder eller bygger videre på værket, må du kun videredistribuere det resulterende værk under en licens, der er identisk, lignende eller kompatibel.</p>
+    </item>
+  </terms>
+  <p>Se licensens fulde tekst på <link href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">CreativeCommons-webstedet</link> eller læs den fulde <link href="http://creativecommons.org/licenses/by-sa/3.0/">Commons Deed</link>.</p>
+</page>

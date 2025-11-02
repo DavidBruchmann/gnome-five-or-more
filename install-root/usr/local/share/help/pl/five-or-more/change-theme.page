@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-theme" xml:lang="pl">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru Lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zmiana wyglądu</title>
+  <p>Aby zmienić wygląd kulek i planszy:</p>
+
+  <steps>
+    <item><p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+
+    <list>
+    <item><p>Wybierz <gui>Kulki</gui>, <gui>Kształty</gui> lub <gui>Tango</gui> z rozwijanego menu <gui>Motyw</gui>, aby zmienić kulki do gry.</p></item>
+    <item><p>Kliknij kolorowe pole obok napisu <gui>Kolor tła</gui>, aby włączyć paletę kolorów.</p></item>
+    </list>
+    </item>
+    <item><p>Zamknij okno <gui>Preferencje</gui>.</p></item>
+  </steps>
+
+</page>

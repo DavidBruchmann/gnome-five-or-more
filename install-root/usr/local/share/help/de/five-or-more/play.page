@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="de">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2012, 2016, 2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014,2019</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018-2019, 2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jürgen Benvenuti</mal:name>
+      <mal:email>gastornis@posteo.org</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Spielverlauf</title>
+
+  <p>Ein neues Spiel starten Sie, indem Sie auf den Menüknopf oben rechts im Fenster klicken und <gui style="menuitem">Neues Spiel</gui> wählen.</p>
+
+  <section id="mouse">
+
+  <title>Mit der Maus</title>
+
+  <steps>
+    <item>
+      <p>Klicken Sie auf das Objekt, welches Sie bewegen wollen. Das ausgewählte Objekt beginnt sich zu drehen.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf das gewünschte Zielfeld. Das ausgewählte Objekt wird zum Zielfeld verschoben, sofern es einen freien Weg dorthin gibt.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Mit der Tastatur</title>
+
+  <steps>
+    <item>
+      <p>Drücken Sie eine der Pfeiltasten. Eine der Zellen auf dem Spielfeld wird daraufhin umrandet.</p>
+    </item>
+    <item>
+      <p>Verwenden Sie die Pfeiltasten sowie <key>Pos1</key>, <key>Ende</key>, <key>Seite↑</key> und <key>Seite↓</key>, um zum Objekt zu gelangen, das Sie verschieben möchten.</p>
+    </item>
+    <item>
+      <p>Um das Objekt auszuwählen, drücken Sie die <key>Eingabetaste</key>, die <key>Leertaste</key> oder <key>Entertaste</key>. Das gewählte Objekt beginnt sich zu drehen.</p>
+    </item>
+    <item>
+      <p>Bewegen Sie sich nun zum gewünschten Feld und drücken Sie die <key>Eingabetaste</key>, <key>Leertaste</key> oder <key>Entertaste</key>. Dadurch wird das gewählte Objekt zum gewünschten Feld verschoben.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Video-Demonstration</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

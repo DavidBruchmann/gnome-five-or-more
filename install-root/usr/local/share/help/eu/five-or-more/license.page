@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="eu">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <desc>Legezko informazioa.</desc>
+  </info>
+
+  <title>Lizentzia</title>
+  <p>Lan  hau Creative Commons Attribution-Share Alike 3.0 Unported lizentzia pean banatzen da.</p>
+  <p>Libre zara:</p>
+  <terms>
+    <item>
+      <title><em>Partekatzeko</em></title>
+      <p>Lana kopiatu, banatu eta transmititzeko.</p>
+    </item>
+    <item>
+      <title><em>Aldatzeko</em></title>
+      <p>Lana moldatzeko.</p>
+    </item>
+  </terms>
+  <p>Honako baldintzen pean:</p>
+  <terms>
+    <item>
+      <title><em>Aitortu</em></title>
+      <p>Lanaren egilea edo lizentziaren jabea nor den aitortu behar duzu, hark esandako moduan (baina zuk egiten duzun erabilera babesten duela esan edo iradoki gabe).</p>
+    </item>
+    <item>
+      <title><em>Partekatu berdin</em></title>
+      <p>Lan hau aldatu, transformatu edo osatzen baduzu, lizentzia bera edo lizentzia bateragarri bat erabili beharko duzu sortutako lan berria banatzeko.</p>
+    </item>
+  </terms>
+  <p>Lizentziaren testu osoa kontsultzeko, begiratu <link href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">CreativeCommons webgunean</link> edo irakurri <link href="http://creativecommons.org/licenses/by-sa/3.0/">Commons kontratu osoa</link>.</p>
+</page>

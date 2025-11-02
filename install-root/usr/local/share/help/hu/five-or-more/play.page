@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="hu">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hogyan kell játszani?</title>
+
+  <p>Új játék indításához nyomja meg az ablak jobb felső sarkában lévő menü gombot, és válassza az <gui style="menuitem">Új játék</gui> menüpontot.</p>
+
+  <section id="mouse">
+
+  <title>Az egér használatával</title>
+
+  <steps>
+    <item>
+      <p>Kattintson a mozgatni kívánt objektumra. A kiválasztott objektum pörögni kezd.</p>
+    </item>
+    <item>
+      <p>Kattintson a cél cellára. A választott objektum a cél cellába lesz mozgatva, ha létezik szabad útvonal.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>A billentyűzet használatával</title>
+
+  <steps>
+    <item>
+      <p>Nyomja meg bármely nyílbillentyűt. A táblán megjelenik egy körvonal az egyik cella körül.</p>
+    </item>
+    <item>
+      <p>A nyílbillentyűk és a <key>Home</key>, <key>End</key>, <key>PageUp</key> és <key>PageDown</key> billentyűk használatával navigáljon ahhoz az objektumhoz, amelyet mozgatni szeretne.</p>
+    </item>
+    <item>
+      <p>Az objektum kiválasztásához nyomja meg az <key>Enter</key>, a <key>Szóköz</key> vagy a <key>Return</key> billentyűt. A kijelölt objektum forogni kezd.</p>
+    </item>
+    <item>
+      <p>Lépjen a cél cellára, majd nyomja meg újra az <key>Enter</key>, a <key>Szóköz</key> vagy a <key>Return</key> billentyűt. A kijelölt objektum a cél cellába lesz mozgatva, ha létezik szabad útvonal.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Videobemutató</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="eu">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  </info>
+
+  <title>Estrategia</title>
+
+  <p>Ez dago <app>Bost edo gehiago</app> jokorako estrategia unibertsalik, baina badaude kontuan hartu daitezkeen zenbait elementu estrategiko. Kontuan izan hurrengo ideiak jokoan ari zarenean:</p>
+  <list>
+    <item><p>Saiatu gutxienez hiru objektu berdin kokatzen mugimendu bakoitzean.</p></item>
+    <item><p>Taula laster bete daiteke objektuekin, beraz, hobe da aurretiaz ongi pentsatzea. Jarri arreta <gui>Hurrengoa</gui> objektuen bilduman, horiek ezagututa zure mugimenduak hobeto pentsatu baititzakezu.</p></item>
+    <item><p>Sakatu bost objektu baino gehiago lerrokatzen. Adibidez, sei objektu badituzu, bi eta hiru objektu lerrokatzen eta tartean zuriune bat uzten saiatu zaitezke, eta ondoren seigarren objektu baten bidez seiko lerro bat sortzen.</p></item>
+  </list>
+</page>

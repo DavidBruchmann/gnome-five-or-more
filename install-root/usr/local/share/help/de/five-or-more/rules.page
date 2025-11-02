@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="de">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2012, 2016, 2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014,2019</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018-2019, 2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jürgen Benvenuti</mal:name>
+      <mal:email>gastornis@posteo.org</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Regeln</title>
+  <list>
+    <item><p>Zu Beginn des Spiels befinden sich bereits 3 oder 7 Objekte auf dem Spielfeld, abhängig von der <link xref="change-board-size">Spielfeldgröße</link>.</p></item>
+
+    <item><p>Jedes Mal beim <link xref="play">Bewegen eines Objekts</link> werden zusätzliche Objekte zufällig auf dem Spielfeld platziert. Die Anzahl ist vom Spielfeld abhängig. Eine Vorschau der nächsten zu platzierenden Objekte wird in der linken oberen Ecke des Programmfensters angezeigt.</p></item>
+
+    <item><p>Der Weg von der ursprünglichen Position zur Zielposition muss frei sein, das bedeutet, dass Sie nicht über andere Objekte springen können.</p></item>
+
+    <item><p>Eine gerade horizontale, vertikale oder diagonale Linie aus fünf oder mehr Objekten wird vom Spielfeld entfernt. In diesem Fall erhalten Sie außerdem einen zusätzlichen Zug, bei dem keine weiteren Objekte zum Spielfeld hinzugefügt werden.</p></item>
+
+    <item><p>Je mehr Objekte Sie entfernen, umso länger wird das Spiel fortgesetzt. Je länger Sie spielen, umso höher wird Ihr <link xref="scores">Punktestand</link>.</p></item>
+
+    <item><p>Das Spiel ist vorbei, sobald das Spielfeld vollständig gefüllt ist, da dann kein Objekt mehr bewegt werden kann.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Beispiel für eine horizontale Anordnung</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Beispiel für eine vertikale Anordnung</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Beispiel für eine diagonale Anordnung</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes"><application>Fünf-oder-mehr</application>-Endposition.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

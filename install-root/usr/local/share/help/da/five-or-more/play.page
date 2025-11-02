@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="da">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Sådan spilles spillet</title>
+
+  <p>Start et nyt spil ved at trykke på menuknappen i øverste højre hjørne af vinduet og vælge <gui style="menuitem">Nyt spil</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Med musen</title>
+
+  <steps>
+    <item>
+      <p>Klik på det objekt, du vil flytte. Det valgte objekt begynder at dreje rundt.</p>
+    </item>
+    <item>
+      <p>Klik på destinationscellen. Det valgte objekt flytter til destinationscellen, hvis der er en ryddet sti.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Med tastaturet</title>
+
+  <steps>
+    <item>
+      <p>Tryk på en af piletasterne. Der vises et omrids omkring en af cellerne på brættet.</p>
+    </item>
+    <item>
+      <p>Brug piletasterne og tasterne <key>Home</key>, <key>End</key>, <key>PageUp</key> og <key>PageDown</key> til at navigere til det objekt, du vil flytte.</p>
+    </item>
+    <item>
+      <p>For at vælge objektet trykkes på <key>Enter</key>, <key>Mellemrum</key> eller <key>Retur</key>. Det valgte objekt begynder at dreje rundt.</p>
+    </item>
+    <item>
+      <p>Flyt til destinationscellen og tryk igen på <key>Enter</key>, <key>Mellemrum</key> eller <key>Retur</key>. Det valgte objekt flyttes til destinationscellen, hvis der er en ryddet sti.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Videodemonstration</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>

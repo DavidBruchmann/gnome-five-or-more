@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-board-size" xml:lang="eu">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+     <name>Michael Hill</name>
+     <email>mdhillca@gmail.com</email>
+    </credit>
+  </info>
+
+  <title>Aldatu taularen tamaina</title>
+    <p>Taularen tamaina aldatzeko:</p>
+    <list>
+      <item><p>Sakatu leihoaren goiko eskuineko izkinan dagoen menu-botoia.</p></item>
+      <item><p>Hautatu <gui>Txikia</gui>, <gui>Ertaina</gui> edo <gui>Handia</gui>.</p></item>
+    </list>
+
+  <note style="tip">
+    <p>Taula handiagoak espazio gehiago emango dizu, baina jokatzeko objektu gehiago ere izango dituzu txanda bakoitzean.</p>
+  </note>
+
+  <section id="board-parameters">
+    <title>Taularen parametroak</title>
+      <p>3 taula-tamaina desberdinek honako parametroak dituzte:</p>
+
+    <table shade="all">
+      <tr>
+        <td><p><em>Tamaina</em></p></td>
+        <td><p><em>Zabalera</em></p></td>
+        <td><p><em>Altuera</em></p></td>
+        <td><p><em>Mota kopurua</em></p></td>
+        <td><p><em>Objektu kopurua txandako</em></p></td>
+        <td><p><em>Gelaxka kopurua</em></p></td>
+      </tr>
+
+      <tr>
+        <td><p>Txikia</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>5</p></td>
+        <td><p>3</p></td>
+        <td><p>49</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Ertaina</p></td>
+        <td><p>9</p></td>
+        <td><p>9</p></td>
+        <td><p>7</p></td>
+        <td><p>3</p></td>
+        <td><p>81</p></td>
+      </tr>
+
+      <tr>
+        <td><p>Handia</p></td>
+        <td><p>20</p></td>
+        <td><p>15</p></td>
+        <td><p>7</p></td>
+        <td><p>7</p></td>
+        <td><p>300</p></td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="board-sizes">
+    <title>3 taula-tamainak</title>
+
+    <table>
+      <tr>
+        <td>
+          <media type="image" src="figures/small.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Bost edo gehiago</app> taula txikia</p>
+          </media>
+        </td>
+        <td>
+           <media type="image" src="figures/medium.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Bost edo gehiago</app> taula ertaina</p>
+          </media>
+        </td>
+        <td>
+          <media type="image" src="figures/large.png" height="200" its:translate="no">
+            <p its:translate="yes"><app>Bost edo gehiago</app> taula handia</p>
+          </media>
+        </td>
+      </tr>
+    </table>
+  </section>
+</page>

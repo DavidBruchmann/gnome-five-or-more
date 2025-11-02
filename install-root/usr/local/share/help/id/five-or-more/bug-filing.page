@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Triyan W. Nugroho</mal:name>
+      <mal:email>triyan.wn@gmail.com</mal:email>
+      <mal:years>2020.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2021.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Laporkan Masalah</title>
+  <p>
+    <app>Five or More</app> is maintained by a volunteer community. You are welcome to participate.  If you notice a problem you can file a <em>bug report</em>. To file a bug, go to <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/>.
+  </p>
+  <p>Ini adalah sistem pelacakan kutu dimana pengguna dan pengembang dapat mengajukan rincian tentang kutu, kres dan permintaan fitur tambahan.</p>
+  <p>Untuk berpartisipasi, Anda harus melakukan login, sehingga Anda bisa mendapatkan akses, melaporkan kutu, dan menambahkan komentar. Anda juga harus login menggunakan salah satu akun Anda atau mendaftar akun yang baru, sehingga Anda bisa mendapatkan informasi pemutakhiran melalui surel tentang status kutu yang Anda laporkan. Jika Anda belum memiliki akun, dan tidak ingin menggunakan pilihan login yang tersedia, klik pada taut <gui>Register</gui> untuk membuat akun.</p>
+
+  <p>Jika Anda sudah memiliki akun, log masuk, klik pada <guiseq><gui>Proyek</gui><gui>five-or-more</gui><gui>Masalah</gui><gui>Masalah baru</gui></guiseq>. Sebelum melaporkan sebuah kutu, silakan baca <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">panduan pelaporan kutu</link>, dan silakan <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">menjelajah</link> laporan kutu yang lain untuk melihat apakah sudah ada laporan yang sama.</p>
+  <p>Isi bagian Judul dan Deskripsi dan klik <gui>Kirim masalah</gui>.</p>
+  <p>Laporan Anda akan diberi suatu nomor ID, dan statusnya akan dimutakhirkan ketika sedang ditangani.</p>
+</page>

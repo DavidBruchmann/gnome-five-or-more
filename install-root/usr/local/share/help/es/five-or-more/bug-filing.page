@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="editor copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+      <years>2011</years>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011-2021</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Informar de un problema</title>
+  <p>
+    <app>Five or More</app> is maintained by a volunteer community. You are welcome to participate.  If you notice a problem you can file a <em>bug report</em>. To file a bug, go to <link href="https://gitlab.gnome.org/GNOME/five-or-more/-/issues/"/>.
+  </p>
+  <p>Este es el sistema de seguimiento de errores en el que los usuarios y los desarrolladores pueden archivar detalles sobre los errores, fallos y solicitudes de mejoras.</p>
+  <p>Para participar necesita una cuenta, que le permitirá obtener acceso, informar de errores y hacer comentarios. También debe registrarte para poder recibir actualizaciones por correo-e sobre el estado de su informe de error. Si todavía no tiene una cuenta y no quiere usar de las opciones de inicio de sesión disponibles, simplemente pulse en el enlace <gui>Register</gui> para crear una.</p>
+
+  <p>Una vez que tenga su cuenta, inicie sesión y pulse en <guiseq><gui>Projects</gui><gui>five-or-more</gui><gui>Issues</gui><gui>New issue</gui></guiseq>. Antes de informar de un error, lea las <link href="https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines">guías para informar de un error</link> y <link href="https://gitlab.gnome.org/GNOME/five-or-more/issues">busque</link> el error para ver si ya existe.</p>
+  <p>Rellene los apartados «Title» y «Description» y pulse <gui>Submit issue</gui>.</p>
+  <p>Se asignará un número de ID a su informe, y su estado se actualizará a medida que se vaya tratando.</p>
+</page>

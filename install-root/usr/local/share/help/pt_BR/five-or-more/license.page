@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="pt_BR">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <desc>Informações legais.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leônidas Araújo</mal:name>
+      <mal:email>lerousvellt@hotmail.com</mal:email>
+      <mal:years>2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Licença</title>
+  <p>Esta obra é licenciada sob uma licença Creative Commons Atribuição Compartilhada Igual 3.0 Não Adaptada.</p>
+  <p>Você é livre:</p>
+  <terms>
+    <item>
+      <title><em>Para compartilhar</em></title>
+      <p>Para copiar, distribuir e transmitir a obra.</p>
+    </item>
+    <item>
+      <title><em>Para remixar</em></title>
+      <p>Para adaptar a obra.</p>
+    </item>
+  </terms>
+  <p>Sob as seguintes condições:</p>
+  <terms>
+    <item>
+      <title><em>Atribuição</em></title>
+      <p>Você deve atribuir esta obra da forma especificada pelo autor ou licenciante (mas não de forma a sugerir que eles endossam você ou o sua forma de uso).</p>
+    </item>
+    <item>
+      <title><em>Compartilhamento pela mesma licença</em></title>
+      <p>Se você alterar, transformar ou basear-se neste trabalho, poderá distribuir o trabalho resultante apenas sob a mesma licença, semelhante ou compatível.</p>
+    </item>
+  </terms>
+  <p>Para o texto integral da licença, veja o <link href="https://creativecommons.org/licenses/by-sa/3.0/legalcode.pt">site da CreativeCommons</link> ou leia o texto completo em <link href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR">Licença para leigos</link>.</p>
+</page>

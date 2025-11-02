@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="index" xml:lang="eu">
+
+  <info>
+    <title type="link" role="trail"><media type="image" src="figures/logo.png" its:translate="no"/></title>
+    <title type="link">Bost edo gehiago</title>
+    <title type="text">Bost edo gehiago</title>
+    <revision pkgversion="3.10.0" version="0.1" date="2013-08-18" status="final"/>
+
+     <credit type="author">
+       <name>Lahiru lanka</name>
+       <email>lankakck@gmail.com</email>
+     </credit>
+     <credit type="author editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+     </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title><media type="image" src="figures/logo32.png" its:translate="no"><span its:translate="yes">Bost edo gehiago logoa</span></media> Bost edo gehiago</title>
+
+  <p><app>Bost edo gehiago</app> adimenerako joko sinple bat da. Xedea da <link xref="change-theme#images">kolore edo forma</link> bereko bost objektu lerro zuzen batean kokatzea. Lerroa horizontala, bertikala edo zeharkakoa izan daiteke. Bost objektu edo gehiago lerro batean kokatu ondoren, desagertu egiten dira. Ahalik eta objektu gehien desagerrarazi behar dira. Jokoa amaituko da taula osoa beteta dagoenean.</p>
+
+
+  <section id="play" style="2column">
+    <title>Jokoa</title>
+  </section>
+
+  <section id="tips" style="2column">
+    <title>Argibide erabilgarriak</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Aurreratua</title>
+  </section>
+
+  <section id="get-involved" style="2column">
+    <title>Hartu parte</title>
+  </section>
+
+</page>

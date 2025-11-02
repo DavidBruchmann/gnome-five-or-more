@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="strategy" xml:lang="id">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Triyan W. Nugroho</mal:name>
+      <mal:email>triyan.wn@gmail.com</mal:email>
+      <mal:years>2020.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2021.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Strategi</title>
+
+  <p>Tidak ada strategi umum untuk <app>Five or More</app>, tetapi ada beberapa elemen strategis. Berikut beberapa hal yang perlu mendapatkan perhatian dan bisa dicoba saat Anda bermain:</p>
+  <list>
+    <item><p>Berusahalah mengatur setidaknya tiga objek yang sama pada setiap langkah Anda.</p></item>
+    <item><p>Papan permainan bisa secara cepat menjadi sangat ramai dengan objek, jadi sebaiknya Anda berpikir sebelum bertindak. Berikan perhatian pada objek <gui>Berikutnya</gui>, karena dengan mengetahui hal tersebut, akan mempengaruhi langkah yang akan Anda ambil.</p></item>
+    <item><p>Cobalah untuk mengurutkan lebih dari 5 objek. Misalnya, jika Anda memiliki 6 objek, Anda dapat mengurutkan 2 dan 3 dengan sebuah ruang di antaranya, dan kemudian menghubungkan mereka dengan meletakkan objek keenam pada ruang di antaranya.</p></item>
+  </list>
+</page>

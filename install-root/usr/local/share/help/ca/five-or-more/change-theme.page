@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="change-theme" xml:lang="ca">
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+    <credit type="author copyright">
+      <name>Lahiru lanka</name>
+      <email>lankakck@.gmailcom</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel</mal:name>
+      <mal:email>danielof7@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Sanchis</mal:name>
+      <mal:email>joansanchis@pm.me</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Canviar l'aparença</title>
+  <p>Canviar l'aparença de les peces i del tauler:</p>
+
+  <steps>
+    <item><p>Premeu el botó del menú al cantó superior dret de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+
+    <list>
+    <item><p>Seleccioneu <gui>boles</gui>, <gui>formes</gui>, o <gui>tango</gui> des del menú desplegable <gui>Tema</gui> per a canviar les peces de joc.</p></item>
+    <item><p>Feu clic en el requadre de color al costat <gui>Color de fons</gui> per a accedir a la paleta de colors.</p></item>
+    </list>
+    </item>
+    <item><p>Tanqueu el diàleg <gui>Preferències</gui>.</p></item>
+  </steps>
+
+</page>

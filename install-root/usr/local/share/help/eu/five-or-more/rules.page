@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="eu">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  </info>
+
+  <title>Arauak</title>
+  <list>
+    <item><p>Jokaldiaren hasieran, 3 edo 7 objektu egongo dira taulan, aukeratutako <link xref="change-board-size">taula-tamainaren</link> arabera.</p></item>
+
+    <item><p><link xref="play">Objektu bat lekuz aldatzen den</link> bakoitzeko, objektu gehiago kokatzen dira taulan, ausaz. Kokatutako objektu berrien kopurua taularen araberakoa izango da. Joko-leihoaren goiko ezkerreko izkinak taulan kokatuko diren objektuen aurrebista bat agertzen da.</p></item>
+
+    <item><p>Objektuaren jatorrizko kokalekutik helburuko gelaxkaraino bide garbi bat egon behar da (ezin da objektuen gainetik salto egin).</p></item>
+
+    <item><p>Antzeko bost objektu edo gehiago lerro horizontal, bertikal edo zeharkako batean kokatzen badira, desagertu egingo dira taulatik. Hori gertatzen denean, taulari objektu gehiago gehituko ez zaizkion mugimendu estra bat izango duzu.</p></item>
+
+    <item><p>Gero eta objektu gehiago kendu, jokoak gehiago iraungo du. Gero eta denbora luzeagoan jokatu, <link xref="scores">puntuazioa</link> altuagoa izango da.</p></item>
+
+    <item><p>Jokoa amaituko da taula beteta dagoenean, momentu horretan ezin izango baitira objektuak lekuz aldatu.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Lerrokatze horizontalaren adibidea</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Lerrokatze bertikalaren adibidea</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Zeharkako lerrokatzearen adibidea</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes"><app>Bost edo gehiago</app> jokoaren amaierako kokapena.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

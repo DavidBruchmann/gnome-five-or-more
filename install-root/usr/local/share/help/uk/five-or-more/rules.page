@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="rules" xml:lang="uk">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.4.0" version="0.1" date="2012-03-13" status="final"/>
+
+    <credit type="author copyright">
+      <name/>
+      <email/>
+      <years>2011</years>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Правила</title>
+  <list>
+    <item><p>На початку гри на дошці буде 3 або 7 об'єкти, залежно від <link xref="change-board-size">розміру дошки</link>.</p></item>
+
+    <item><p>Кожного разу, коли ви <link xref="play">пересуватимете об'єкт</link>, на дошці випадковим чином з'являтимуться нові об'єкти. Кількість нових об'єктів, які з'являтимуться на дошці залежить від дошки. Попередній перегляд об'єктів, які буде розташовано на дошці, буде показано у верхньому лівому куті вікна гри.</p></item>
+
+    <item><p>Між початковою позицією об'єкта і його коміркою призначення має бути вільний шлях (тобто, перестрибувати через об'єкти не можна).</p></item>
+
+    <item><p>Пряма горизонтальна, вертикальна або діагональна лінія з п'яти або більшої кількості об'єктів зникатиме з дошки. Коли це траплятиметься, вам надаватиметься додатковий хід без додавання нових об'єктів на дошку.</p></item>
+
+    <item><p>Чим більше об'єктів вам вдасться видалити з дошки, тим довше триватиме гра. Чим довше триватиме гра, тим кращим буде <link xref="scores">результат</link>.</p></item>
+
+    <item><p>Гра вважатиметься завершеною, коли дошку буде заповнено об'єктами, оскільки у такій позиції не можна буде пересунути жодного об'єкта.</p></item>
+  </list>
+
+  <table>
+    <tr>
+      <td>
+        <media type="image" src="figures/horizontal.png" width="200" its:translate="no">
+          <p its:translate="yes">Приклад горизонтального вирівнювання</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/vertical.png" width="200" its:translate="no">
+          <p its:translate="yes">Приклад вертикального вирівнювання</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/diagonal.png" width="200" its:translate="no">
+          <p its:translate="yes">Приклад діагонального вирівнювання</p>
+        </media>
+      </td>
+      <td>
+        <media type="image" src="figures/glines-gameover.png" width="200" its:translate="no">
+          <p its:translate="yes">Позиція завершення гри <app>П'ять або більше</app>.</p>
+        </media>
+      </td>
+    </tr>
+  </table>
+</page>

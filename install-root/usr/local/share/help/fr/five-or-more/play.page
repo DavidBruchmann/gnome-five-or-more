@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="play" xml:lang="fr">
+  <info>
+    <link type="guide" xref="index#play"/>
+    <revision pkgversion="3.31.91" version="0.2" date="2019-03-02" status="final"/>
+
+    <credit type="author copyright">
+       <name>Lahiru lanka</name>
+      <email> lankakck@.gmailcom</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jonathan Ernst</mal:name>
+      <mal:email>jonathan@ernstfamily.ch</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2007-2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jean-Baptiste Holcroft</mal:name>
+      <mal:email>jean-baptiste@holcroft.fr</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020-2022</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Déroulement d’une partie</title>
+
+  <p>Pour commencer une nouvelle partie, cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Nouvelle partie</gui>.</p>
+
+  <section id="mouse">
+
+  <title>Utilisation de la souris</title>
+
+  <steps>
+    <item>
+      <p>Cliquez sur l’objet que vous voulez déplacer. L’objet sélectionné se met à tourner.</p>
+    </item>
+    <item>
+      <p>Cliquez sur la cellule cible. L’objet sélectionné se déplace vers la cellule de destination, si le chemin est libre.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="keyboard">
+
+  <title>Utilisation du clavier</title>
+
+  <steps>
+    <item>
+      <p>Appuyez sur une des touches fléchées. Un contour autour d’une cellule apparaît sur le plateau.</p>
+    </item>
+    <item>
+      <p>Accédez à l’objet que vous souhaitez déplacer, en utilisant les touches fléchées et les touches <key>Origine</key>, <key>Fin</key>, <key>Page haut</key> et <key>Page bas</key>.</p>
+    </item>
+    <item>
+      <p>Pour sélectionner l’objet, appuyez sur <key>Entrée</key>, la <key>barre d’espace</key> ou <key>Entrée du pavé numérique</key>. L’objet sélectionné se met à tourner.</p>
+    </item>
+    <item>
+      <p>Déplacez-vous vers la cellule cible et appuyez à nouveau sur <key>Entrée</key>, la <key>barre d’espace</key> ou <key>Entrée du pavé numérique</key>. L’objet sélectionné se déplace vers la cellule de destination, si le chemin est libre.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="usage-video">
+
+  <title>Démonstration vidéo</title>
+
+    <media type="video" mime="application/ogg" src="figures/glines-demo.ogv" its:translate="no">
+    </media>
+
+  </section>
+
+</page>
